@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Los Angeles</name>
+    <description>Los Angeles</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Feria Libre Stgo Bueras Los Angeles</name>
+        <description><![CDATA[CALLE PRINCIPAL:Stgo. Barrera<br>CALLE LIMITE 1: Argomedo<br>CALLE LIMITE 2:Rosales<br>DÍAS DE POSTURA:	Mier-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.341945,-37.486539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Villa Departamental </name>
+        <description><![CDATA[CALLE PRINCIPAL:Villa Departamental<br>CALLE LIMITE 1: Tocopilla<br>CALLE LIMITE 2:Los Vilos<br>DÍAS DE POSTURA:	Lun-Mar-Mier-Jue-Vier]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.376728,-37.472576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza Araucaria </name>
+        <description><![CDATA[CALLE PRINCIPAL: Alcazar<br>CALLE LIMITE 1: Independencia<br>CALLE LIMITE 2:E. Ramirez<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.36263,-37.477021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Juan Guzman</name>
+        <description><![CDATA[CALLE PRINCIPAL:Juan Guzman<br>CALLE LIMITE 1: P. Prado<br>CALLE LIMITE 2:A. Perez<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.338169,-37.484751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

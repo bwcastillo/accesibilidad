@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Chiguayante</name>
+    <description>Chiguayante</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>S. T. Independientes 1 Tierra Bella Chig.</name>
+        <description><![CDATA[CALLE PRINCIPAL:Av. Central<br>CALLE LIMITE 1: Manuel Rodriguez<br>CALLE LIMITE 2:Morris<br>DÍAS DE POSTURA:	Martes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.023763,-36.932948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>S.T. Independientes #2 Tierra Bella Chig.</name>
+        <description><![CDATA[CALLE PRINCIPAL:Bilbao<br>CALLE LIMITE 1: Bernardo Ohiggins<br>CALLE LIMITE 2:Linea Ferrobiaria<br>DÍAS DE POSTURA:	Sábado]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.030243,-36.911882,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>S.T. Independientes #3 Tierra Bella Chig. Leonera</name>
+        <description><![CDATA[CALLE PRINCIPAL:Los Andes (leonera)<br>CALLE LIMITE 1: Manuel Rodriguez<br>CALLE LIMITE 2:Sitio publico (orilla rio Bio-Bio)<br>DÍAS DE POSTURA:	Domingo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.015265,-36.955585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

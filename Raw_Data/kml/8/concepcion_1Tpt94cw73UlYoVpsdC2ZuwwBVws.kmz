@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Concepción</name>
+    <description>Concepción</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Feria Chillancito </name>
+        <description><![CDATA[CALLE PRINCIPAL:Sta.Maria<br>CALLE LIMITE 1: Lota Manzano<br>CALLE LIMITE 2:Diego de Oro <br>DÍAS DE POSTURA:	Viernes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.031445,-36.810264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Campesina</name>
+        <description><![CDATA[CALLE PRINCIPAL:Ignacio Collao<br>CALLE LIMITE 1: Bernardino Corral <br>CALLE LIMITE 2:Tegualda<br>DÍAS DE POSTURA:	Mar-Sab]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.024428,-36.817084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Mackena</name>
+        <description><![CDATA[CALLE PRINCIPAL:Mackena<br>CALLE LIMITE 1: Paicaivi<br>CALLE LIMITE 2:Lautaro<br>DÍAS DE POSTURA:	Miércoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.048396,-36.811604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Collao </name>
+        <description><![CDATA[CALLE PRINCIPAL:Ignacio Collao<br>CALLE LIMITE 1: Bernardino Corral <br>CALLE LIMITE 2:Tegualda<br>DÍAS DE POSTURA:	Mier-Vier-Sab]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.023913,-36.817239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Pedro de Valdivia</name>
+        <description><![CDATA[CALLE PRINCIPAL: Las Canchas<br>CALLE LIMITE 1:  Luis Acevedo<br>CALLE LIMITE 2:Gabriela Mistral <br>DÍAS DE POSTURA:Mar-Sab]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.055906,-36.842366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Los Lirios  </name>
+        <description><![CDATA[CALLE PRINCIPAL:Eloiza Urrutia #200<br>CALLE LIMITE 1: general Gorostiaga<br>CALLE LIMITE 2:Eloiza Urrutia #300<br>DÍAS DE POSTURA:	Mier]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.014257,-36.826205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Nonguen</name>
+        <description><![CDATA[CALLE PRINCIPAL:los mañios<br>CALLE LIMITE 1: camino a Nonguen<br>CALLE LIMITE 2: las Lilas<br>DÍAS DE POSTURA:	 Mier]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.005245,-36.832113,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Villa Cap</name>
+        <description><![CDATA[CALLE PRINCIPAL:Quinchamali<br>CALLE LIMITE 1: Pasaje 16<br>CALLE LIMITE 2:Pasaje 27<br>DÍAS DE POSTURA:	Sábado]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.03668,-36.799629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Los Troncos</name>
+        <description><![CDATA[CALLE PRINCIPAL:Montriu<br>CALLE LIMITE 1: Carriel Sur<br>CALLE LIMITE 2:Pasaje 27<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.045328,-36.804921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Pedro de Valdivia Bajo</name>
+        <description><![CDATA[CALLE PRINCIPAL:las Canchas<br>CALLE LIMITE 1: Gabriela Mistral<br>CALLE LIMITE 2:Blanco<br>DÍAS DE POSTURA:	Viernes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.015137,-36.808391,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
