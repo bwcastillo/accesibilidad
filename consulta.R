@@ -1,92 +1,3 @@
-library(rvest)
-library(stringr)
-library(RCurl)
-
-setwd("E:/Owncloud Cedeus/Indicadores_de_Sustentabilidad_-_Datos/92._Accesibilidad_a_Ferias/")
-
-# Definir carpetas de trabajo
-setwd("c:/Users/rdgov/ownCloud/Indicadores_de_Sustentabilidad_-_Datos/92._Accesibilidad_a_Ferias/")
-
-setwd("Raw_Data")
-
-# Definir Regi√≥n a trabajar
-region <- 8
-# Hacer un scrapping de las ferias para obtener los links de las ferias
-# En las comunas de la regi√≥n
-html <- read_html(paste0("http://www.asof.cl/apps/mapaferias/regiones/",region,".php"))
-urls <- html %>% 
-  html_nodes("option") %>% 
-  html_attr("value") %>% 
-  na.omit()
-
-
-# Un sapplay que hae un scrap de las urls de los mapas de cada comuna
-maps <- sapply(urls, function(x) {
-  read_html(paste0("http://www.asof.cl/apps/mapaferias/regiones/",x)) %>%
-    html_nodes("iframe") %>%
-    html_attr("src")
-}
-)
-# Un sapply que extrae los ids de los archivos kml de cada comuna
-
-ids <- sapply(maps, function(x) {
-  str_extract(read_html(x) %>% 
-                html_nodes(xpath = '//meta[@itemprop="url"]') %>% 
-                html_attr('content'), "[-_0-9A-Za-z]+$")
-}
-)
-
-
-
-# Descarga los kml de cada comuna en la region
-for (mid in ids) {
-  namess <- gsub("/", "_", names(ids[ids == mid]))
-  namess <- gsub(".php", "", namess)
-  dir.create(paste0("kml/",region))
-  download.file(paste0("https://www.google.com/maps/d/u/0/kml?mid=",mid,"&forcekml=1"),paste0("kml/",region,"/",namess, "_", mid,".kmz"))
-}
-
-
-# extract long-lat coordinates from a bunch of kmz files
-# first unzips the KMZ-s then reads coordinates from each KML with getKMLcoordinates {maptools}
-# (worth checking this as well: https://gist.github.com/holstius/6631918 )
-
-library(maptools)
-setwd("E:/Owncloud Cedeus/Indicadores_de_Sustentabilidad_-_Datos/92._Accesibilidad_a_Ferias/Raw_Data")
-# list the kmz files in a given folder path
-KMZs <- list.files(path="kml/rms/", pattern="*.kmz", full.names=FALSE)
-
-# unzip each KMZ file and read coordinates with getKMLcoordinates()
-# select only the matrix element of the list returned by getKMLcoordinates(), 
-# therefore mention the index [[1]]
-
-From_Kmz_to_Shp_Points <- function(KMZs, folder, dest, name_output){
-  LonLat <- data.frame()
-  for (i in seq(KMZs)){
-    tryCatch(tmp <- getKMLcoordinates(paste0("kml/",folder,"/", KMZs[i]), ignoreAltitude = T), error = function(x){print(KMZs[i]); tmp <- NA})
-    if (class(tmp) == "matrix" | length(tmp) == 1) {print(KMZs[i]);next()}
-    tmp <- do.call(rbind, tmp)
-    colnames(tmp) <- c("lon", "lat")
-    LonLat <- rbind(LonLat, tmp)
-  }
-  LonLat <- LonLat[!is.na(LonLat$lon),]
-  sp <- SpatialPointsDataFrame(LonLat, LonLat)
-  writeOGR(sp, dest, name_output, "ESRI Shapefile", overwrite_layer = T)
-  return(data.frame(LonLat, Ciudad = folder))
-}
-
-setwd("Raw_Data/")
-tabla <- data.frame()
-for (r in seq(list.files("kml"))){
-  folder <- list.files("kml")[r]
-  KMZs <- list.files(path= paste0("kml/",folder), pattern="*.kmz", full.names=FALSE)
-  tablita <-  From_Kmz_to_Shp_Points(KMZs, folder,
-                         dest = "../Shapefiles",
-                         paste0("Ferias_", folder))
-  tabla <- rbind(tabla, tablita)
-}
-
-######## Hasta convertir a shape todo bien#########
 
 #####ConcentraciÛn en la consulta#############
 
@@ -101,10 +12,10 @@ Consulta_OTP <- function(coordinates, viaje.tiempo = 10, viaje.velocidad = 1.38,
                               mode, '&toPlace=-33.5846161,-70.5410151&output=', 
                               outputgeom, sep = "") 
   
-  consulta.url <- paste(otp_rest_url, consulta.parametros, sep  = "") #LÌnea
+  consulta.url <- paste(otp_rest_url, consulta.parametros, sep  = "") #Ref:LÌnea 6
   # Extraer el walkshed, el cual viene en formato GeoJSON
   print(consulta.url)
-  walkshed.texto <- getURL(consulta.url)
+  walkshed.texto <- getURL(consulta.url) #Ref:LÌnea 15
   
   # Contador que define el n?mero de veces que se debe intentar una consulta cuando se encuentran
   # geometr?as incorrectas.
@@ -148,7 +59,7 @@ for (c in unique(tabla$Ciudad)){
   } else {
     walkshed.shp <- readOGR("../Output/Walksheds", shp.name)
   }
-
+  
   poblacion_manzanas.shp <- readOGR("../Raw_Data/Poblacion_Manzanas_Ciudades", paste0(c, "_Poblacion_Manzanas"), encoding = "UTF-8")
   walkshed.shp <- spTransform(walkshed.shp, proj4string(poblacion_manzanas.shp))
   # Los walksheds que tienen contacto con una manzana
@@ -172,4 +83,4 @@ for (c in unique(tabla$Ciudad)){
   accesibilidad_tabla <- rbind(accesibilidad_tabla, accesibilidad)
 }
 
-write.csv(accesibilidad_tabla, "E:/Owncloud Cedeus/Indicadores_de_Sustentabilidad_-_Resultados/92._Accesibilidad_a_Ferias/92._Accesibilidad_a_Ferias.csv", row.names = F)
+write.csv(accesibilidad_tabla, "C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/csv_results/92._Accesibilidad_a_Ferias.csv", row.names = F)
