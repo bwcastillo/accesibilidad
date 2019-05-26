@@ -1,21 +1,32 @@
-
-#####Concentración en la consulta#############
-
-Consulta_OTP <- function(coordinates, viaje.tiempo = 10, viaje.velocidad = 1.38,
-                         mode = "WALK", outputgeom = "SHED",
-                         otp_rest_url='http://146.155.17.19:17050/otp/routers/chile/'){
-  # Para no saturar el servidor, se realiza una consulta cada .33 segundos, o 3 consultas por segundo.
-  # Sys.sleep(.1)
-  # Crear la URL para extraer el walkshed
-  consulta.parametros = paste('isochroneOld?fromPlace=', coordinates, '&walkTime=', 
-                              viaje.tiempo, '&walkSpeed=', viaje.velocidad,'&mode=', 
-                              mode, '&toPlace=-33.5846161,-70.5410151&output=', 
+Consulta_OTP()
+Consulta_OTP <- function(coordinates, viaje.tiempo = 10, 
+                         viaje.velocidad = 1.38,
+                         mode = "WALK", 
+                         outputgeom = "SHED",
+                         otp_rest_url='http://otpv2.cedeus.cl/')
+  {
+# Para no saturar el servidor, se realiza una consulta cada .33 segundos, o 3 consultas por segundo.
+# Sys.sleep(.1)
+# Crear la URL para extraer el walkshed
+ 
+   consulta.parametros = paste('otp/routers/chile/isochroneOld?fromPlace=', 
+                               '-33.5846161,-70.5410151', 
+                               '&walkTime=', 
+                              viaje.tiempo, 
+                              '&walkSpeed=', 
+                              viaje.velocidad,
+                              '&mode=', 
+                              mode, 
+                              '&toPlace=-32.5846161,-70.5410151&output=', 
                               outputgeom, sep = "") 
   
-  consulta.url <- paste(otp_rest_url, consulta.parametros, sep  = "") #Ref:Línea 6
+  coordinates<-paste(tabla.ciudad[,2], tabla.ciudad[,1], sep = ",")
+  
+  consulta.url <- paste(otp_rest_url, consulta.parametros, sep  = "") #L?nea
+  
   # Extraer el walkshed, el cual viene en formato GeoJSON
   print(consulta.url)
-  walkshed.texto <- getURL(consulta.url) #Ref:Línea 15
+  walkshed.texto <- getURL(consulta.url)
   
   # Contador que define el n?mero de veces que se debe intentar una consulta cuando se encuentran
   # geometr?as incorrectas.
@@ -31,8 +42,9 @@ Consulta_OTP <- function(coordinates, viaje.tiempo = 10, viaje.velocidad = 1.38,
     counter <- counter + 1
   }
   walkshed.polygon <- readOGR(walkshed.texto, "OGRGeoJSON", verbose = F, p4s = "+proj=longlat +datum=WGS84")
-  return(walkshed.polygon)
-}
+ 
+   return(walkshed.polygon)
+  }
 
 
 Consultor_otp <- function(data, viaje.tiempo = 10, viaje.velocidad = 1.38, mode = "WALK"){
@@ -46,6 +58,8 @@ Consultor_otp <- function(data, viaje.tiempo = 10, viaje.velocidad = 1.38, mode 
   shp.output <- do.call(bind,lista.tmp)
   return(shp.output)
 }
+
+
 accesibilidad_tabla <- data.frame()
 for (c in unique(tabla$Ciudad)){
   tabla.ciudad <- tabla[tabla$Ciudad == c,]
@@ -83,4 +97,4 @@ for (c in unique(tabla$Ciudad)){
   accesibilidad_tabla <- rbind(accesibilidad_tabla, accesibilidad)
 }
 
-write.csv(accesibilidad_tabla, "C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/csv_results/92._Accesibilidad_a_Ferias.csv", row.names = F)
+write.csv(accesibilidad_tabla, "E:/Owncloud Cedeus/Indicadores_de_Sustentabilidad_-_Resultados/92._Accesibilidad_a_Ferias/92._Accesibilidad_a_Ferias.csv", row.names = F)

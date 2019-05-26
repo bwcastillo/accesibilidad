@@ -1,7 +1,7 @@
 library(rvest)
 library(stringr)
 library(RCurl)
-
+library(rgdal)
 setwd("E:/Owncloud Cedeus/Indicadores_de_Sustentabilidad_-_Datos/92._Accesibilidad_a_Ferias/")
 
 # Definir carpetas de trabajo
@@ -88,7 +88,7 @@ for (r in seq(list.files("kml"))){
 
 ######## Hasta convertir a shape todo bien#########
 
-#####Concentración en la consulta#############
+#####Concentraci?n en la consulta#############
 
 Consulta_OTP <- function(coordinates, viaje.tiempo = 10, viaje.velocidad = 1.38,
                          mode = "WALK", outputgeom = "SHED",
@@ -101,7 +101,7 @@ Consulta_OTP <- function(coordinates, viaje.tiempo = 10, viaje.velocidad = 1.38,
                               mode, '&toPlace=-33.5846161,-70.5410151&output=', 
                               outputgeom, sep = "") 
   
-  consulta.url <- paste(otp_rest_url, consulta.parametros, sep  = "") #Línea
+  consulta.url <- paste(otp_rest_url, consulta.parametros, sep  = "") #L?nea
   # Extraer el walkshed, el cual viene en formato GeoJSON
   print(consulta.url)
   walkshed.texto <- getURL(consulta.url)

@@ -1,4 +1,5 @@
 library(rgdal)
+library(maptools)
 
 for (i in seq(KMZs)){
 zz[[i]]<- getKMLcoordinates(paste0("C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/kml/8/",KMZs[i]), ignoreAltitude = T)
@@ -45,5 +46,4 @@ tmp <- getKMLcoordinates(paste0("C:/Users/usuario/Documents/Rwork/Accesibilidad/
                                        paste0("Ferias_", folder))
     tabla <- rbind(tabla, tablita)
   }
-
 
