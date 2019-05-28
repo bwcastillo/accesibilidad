@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Santo Domingo</name>
+    <description>Santo Domingo</description>
+    <Style id="poly-0000FF-3000-115-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0000FF-3000-115-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0000FF-3000-115">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0000FF-3000-115-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0000FF-3000-115-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Santo Domingo</name>
+        <description>Santo Domingo</description>
+        <styleUrl>#poly-0000FF-3000-115</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -71.632162,-33.623663,0
+                -71.641775,-33.636384,0
+                -71.636969,-33.652889,0
+                -71.619116,-33.653675,0
+                -71.601349,-33.646388,0
+                -71.609589,-33.632382,0
+                -71.627785,-33.621876,0
+                -71.632162,-33.623663,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

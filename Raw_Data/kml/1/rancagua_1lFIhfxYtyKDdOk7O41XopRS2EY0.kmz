@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Rancagua</name>
+    <description>Rancagua</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>POBL. RANCAGUA SUR</name>
+        <description><![CDATA[CALLE PRINCIPAL:  VALPARAISO<br>CALLE LIMITE 1:  DIEGO DE ALMAGRO<br>CALLE LIMITE 2: JOSE FAURE<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.741686,-34.18124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBL. MANSO DE VELASCO</name>
+        <description><![CDATA[CALLE PRINCIPAL:  REPUBLICA DE CHILE<br>CALLE LIMITE 1:  AVDA ESPAÑA<br>CALLE LIMITE 2: JUAN ANTONIO RIOS<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.745044,-34.154236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA RAMON TORRES</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AVDA CIRCUNS<br>VALACION<br>CALLE LIMITE 1:  CHORRILLOS<br>CALLE LIMITE 2: AVDA KENNEDY<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.739186,-34.145162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA EL SOL</name>
+        <description><![CDATA[CALLE PRINCIPAL:  PACHECO ALTAMIRANO<br>CALLE LIMITE 1:  ARICA<br>CALLE LIMITE 2: PJE. M. MIRA<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.740613,-34.133742,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA DON MATEO</name>
+        <description><![CDATA[CALLE PRINCIPAL:  SAN PEDRO<br>CALLE LIMITE 1:  BEATA LAURA VICUÑA<br>CALLE LIMITE 2: PJE TIFON<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.737351,-34.127783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA LAGUNA DEL INCA</name>
+        <description><![CDATA[CALLE PRINCIPAL: PJE MATANZA<br>CALLE LIMITE 1:  EL DORADO<br>CALLE LIMITE 2: PAREDONES<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.697687,-34.162404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBL. MANZANAR</name>
+        <description><![CDATA[CALLE PRINCIPAL: HECTOR ZAMORANO<br>CALLE LIMITE 1:  BOMBERO VILLALOBOS<br>CALLE LIMITE 2: AVDA EISTEINS<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.717664,-34.177122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBL. SAN FRANCISCO</name>
+        <description><![CDATA[CALLE PRINCIPAL: SERRANO<br>CALLE LIMITE 1:  FRANCIA<br>CALLE LIMITE 2: LOURDES<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.75691,-34.17153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COSTA DEL SOL</name>
+        <description><![CDATA[CALLE PRINCIPAL: AVDA EL SOL<br>CALLE LIMITE 1:  AVDA VICTORIA<br>CALLE LIMITE 2: PJE EL ABRA<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.717353,-34.153002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PERSA LUZ DEL SOL</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AVDA EL SOL<br>CALLE LIMITE 1:  PJE EL ABRA<br>CALLE LIMITE 2: PUPILLA<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.718694,-34.151972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PERSA ESPERANZA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AVDA VICTORIA<br>CALLE LIMITE 1:  AVDA EL SOL<br>CALLE LIMITE 2: REQUEGUA<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.71672,-34.152665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBL. LOS ALPES</name>
+        <description><![CDATA[CALLE PRINCIPAL: AVDA LOS ALPES<br>CALLE LIMITE 1:  AVDA RECREO<br>CALLE LIMITE 2: AVDA ILLANES<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.734208,-34.150862,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA TENIENTE </name>
+        <description><![CDATA[CALLE PRINCIPAL:  AVDA URUGUAY<br>CALLE LIMITE 1:  AVDA EL SOL<br>CALLE LIMITE 2: SPUNIK<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.703759,-34.160433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>STA CRUZ DE TRIANA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  EUSEBIO LILLO<br>CALLE LIMITE 1:  JAVIERA CARRERA<br>CALLE LIMITE 2: L A A HEIREMANS<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.731225,-34.18385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA SAN IGNACIO</name>
+        <description><![CDATA[CALLE PRINCIPAL: BENITO REBOLLEDO<br>CALLE LIMITE 1:  PJE LIMAHUE<br>CALLE LIMITE 2: PJE TIPAUME<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.764055,-34.177885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PERSA VILLA TENIENTE</name>
+        <description><![CDATA[CALLE PRINCIPAL: AVDA URUGUAY<br>CALLE LIMITE 1:  SPUNIK<br>CALLE LIMITE 2: URSA MAYOR<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.701935,-34.15864,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBL. ESPERANZA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  LIDICE<br>CALLE LIMITE 1:  AVDA SAN MARTIN<br>CALLE LIMITE 2: AVDA CACHAPOAL<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.747104,-34.178932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBL. ISABEL RIQUELME</name>
+        <description><![CDATA[CALLE PRINCIPAL:  PAULA JARAQUEMADA<br>CALLE LIMITE 1:   AVDA FREIRE<br>CALLE LIMITE 2: ISABEL RIQUELME<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.734723,-34.175142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBL. NELSON PEREIRA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  CALLE DE SERVICIO AVDA KENNEDY<br>CALLE LIMITE 1:  TALTAL<br>CALLE LIMITE 2: SAN LORENZO<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.731601,-34.135536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA SAN RAFAEL</name>
+        <description><![CDATA[CALLE PRINCIPAL:  LAGO PEÑUELA<br>CALLE LIMITE 1:  PJE LA CAMPANA<br>CALLE LIMITE 2: PJE LAS 7 CAZAS<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.752736,-34.153766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA BOSQUES DE SAN FCO.</name>
+        <description><![CDATA[CALLE PRINCIPAL: EL MOLINO<br>CALLE LIMITE 1:  RIO LOCO<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.75794,-34.183921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBL. 25 FEBRERO</name>
+        <description><![CDATA[CALLE PRINCIPAL:  LOS GUINDOS<br>CALLE LIMITE 1:  HILARIO VIAL<br>CALLE LIMITE 2: BOMBERO VILLALOBOS<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.70966,-34.171636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBL.RENE SCHNEIDER</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AVDA DIEGO PORTALES<br>CALLE LIMITE 1:  AVDA L B OHIGGINS<br>CALLE LIMITE 2: MARTINEZ DE ROZAS<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.719938,-34.165955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBL. GRANJA</name>
+        <description><![CDATA[CALLE PRINCIPAL: COVADONGA<br>CALLE LIMITE 1:  LORD CHROCANNE<br>CALLE LIMITE 2: MANUEL RODRIGUEZ<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.736289,-34.184489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PERSA R. SCHENIDER</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AVDA DIEGO PORTALES<br>CALLE LIMITE 1:  MARTINEZ DE ROZAS<br>CALLE LIMITE 2: AVDA REPUBLICA DE CHILE<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.718951,-34.161747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PERSA LA CHIMBA</name>
+        <description><![CDATA[CALLE PRINCIPAL:   LIRCAY<br>CALLE LIMITE 1:  JAVIER REINA<br>CALLE LIMITE 2: MARTINEZ DE ALDUNATE<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.71805,-34.162262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBL. RANCAGUA NORTE</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AVDA GRECIA<br>CALLE LIMITE 1:  ESPAÑA<br>CALLE LIMITE 2: RECREO<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.741138,-34.159545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBL. PATRIA JOVEN</name>
+        <description><![CDATA[CALLE PRINCIPAL: AVDA PROVINCIAL<br>CALLE LIMITE 1:  AVDA BAQUEDANO<br>CALLE LIMITE 2: TOTIHUE<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.758862,-34.166523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBL. DIEGO PORTALES</name>
+        <description><![CDATA[CALLE PRINCIPAL: CONSTANZA<br>CALLE LIMITE 1:  ANTONIO GARFIAS<br>CALLE LIMITE 2: AVDA EL SOL<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.713887,-34.157264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PERSA QUILLOTA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  QUILLOTA<br>CALLE LIMITE 1:  CONSTANZA<br>CALLE LIMITE 2: LIRCAY<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.715089,-34.156971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PERSA QUILLOTA DOS</name>
+        <description><![CDATA[CALLE PRINCIPAL:  QUILLOTA<br>CALLE LIMITE 1:  LIRCAY<br>CALLE LIMITE 2: LA CHIMBA<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.715969,-34.156562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PERSA LA CHIMBA </name>
+        <description><![CDATA[CALLE PRINCIPAL:  LA CHIMBA<br>CALLE LIMITE 1:  QUILLOTA<br>CALLE LIMITE 2: ANTONIO GARFIAS<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.71672,-34.156997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PERSA R. SCHNEIDER </name>
+        <description><![CDATA[CALLE PRINCIPAL:  AVDA DIEGO PORTALES<br>CALLE LIMITE 1:  AVDA LB OHIGGINS<br>CALLE LIMITE 2: MARTINEZ D EROZAS<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.719659,-34.165156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Viña del Mar</name>
+    <description>Viña del Mar</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name> El Olivar</name>
+        <description>El Olivar</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.56065,-33.025217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>15 Norte</name>
+        <description><![CDATA[CALLE PRINCIPAL:  15 Norte<br>CALLE LIMITE 1:  15 Norte (rotonda)<br>CALLE LIMITE 2: Rotonda 15 Norte<br>DÍAS DE POSTURA: Calera]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.549685,-33.007512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3° Sector Gomez Carreño</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Av. Pacífico<br>CALLE LIMITE 1:  José Domingo Orrego<br>CALLE LIMITE 2: 6 Poniente<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.514784,-32.995509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5 sector de Gomez Carreño</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Av. Gomez Carreño<br>CALLE LIMITE 1:  21 Poniente<br>CALLE LIMITE 2: Francisco Bilbao<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.5268,-32.986906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Canal Beagle</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Canal Beagle<br>CALLE LIMITE 1:  Rotonda Eriazo Canal Beagle (El Troncal)<br>CALLE LIMITE 2: Trinidad<br>DÍAS DE POSTURA: Solidaridad]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.506459,-33.038412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro Comunitario Nueva Aurora</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Centro Comunitario Nueva Aurora<br>CALLE LIMITE 1:  Paradero 6, nueva aurora<br>CALLE LIMITE 2: Agua Santa<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.566336,-33.045256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Estero Marga- Marga</name>
+        <description><![CDATA[CALLE PRINCIPAL: Estero Marga Marga<br>CALLE LIMITE 1:  Pte. Simón Bolivar<br>CALLE LIMITE 2: Calle Batuco<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.546381,-33.024011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mirador de Reñaca</name>
+        <description>Mirador de Reñaca</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.545029,-32.993331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forestal</name>
+        <description>Forestal</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.535845,-32.988724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paradero 12 de Achupallas</name>
+        <description><![CDATA[CALLE PRINCIPAL: Av. Carlos Ibañez<br>CALLE LIMITE 1:  Av. Frei<br>CALLE LIMITE 2: Ruben Dario<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.502178,-33.021169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Caupolican</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Parque Caupolican<br>CALLE LIMITE 1:  Av. Gomez Carreño<br>CALLE LIMITE 2: Av. Alessandri<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.516061,-32.999522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

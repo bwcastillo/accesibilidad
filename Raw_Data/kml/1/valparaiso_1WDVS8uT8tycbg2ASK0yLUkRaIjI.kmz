@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Valparaíso</name>
+    <description>Valparaíso</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Av. Argentina</name>
+        <description><![CDATA[CALLE PRINCIPAL: Av. Argentina<br>CALLE LIMITE 1: Pasaje Juana Ross<br>CALLE LIMITE 2: Av. Independencia]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.603147,-33.049923,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Copihue</name>
+        <description><![CDATA[CALLE PRINCIPAL: Los Copihues<br>CALLE LIMITE 1: Av. Santa Maria <br>CALLE LIMITE 2: Pje 41 Rotonda Copihue]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.650236,-33.049411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Placilla</name>
+        <description><![CDATA[CALLE PRINCIPAL: Calle Decima<br>CALLE LIMITE 1:  Calle Obispo Valdes<br>CALLE LIMITE 2: Calle Central]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.648809,-33.029327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Conquista</name>
+        <description><![CDATA[CALLE PRINCIPAL: Av Matta<br>CALLE LIMITE 1:  Plaza La Conquista]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.591141,-33.039032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pacífico</name>
+        <description><![CDATA[CALLE PRINCIPAL: Pacífico<br>CALLE LIMITE 1: Quebrada Verde <br>CALLE LIMITE 2: Levarte]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.640258,-33.033744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

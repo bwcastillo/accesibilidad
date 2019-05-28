@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>San Antonio</name>
+    <description>San Antonio</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Barranca 1</name>
+        <description><![CDATA[CALLE PRINCIPAL: Maestranza <br>CALLE LIMITE 1: Tacna<br>CALLE LIMITE 2: Pudeto]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.60996,-33.59539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barranca 2</name>
+        <description><![CDATA[CALLE PRINCIPAL: Independencia<br>CALLE LIMITE 1: Isla Navarino]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.604939,-33.589741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Las Dunas</name>
+        <description><![CDATA[CALLE PRINCIPAL: Curico<br>CALLE LIMITE 1: Ocoa]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.608951,-33.601288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Bellavista 2</name>
+        <description><![CDATA[CALLE PRINCIPAL: Lonquimay<br>CALLE LIMITE 1:  Calle Bruselas<br>CALLE LIMITE 2: Cordillera]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.606033,-33.570291,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Bellavista 1</name>
+        <description><![CDATA[CALLE PRINCIPAL: Alcalde Reinaldo Barahona <br>CALLE LIMITE : Las Planicies]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.605904,-33.567127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Cementerio</name>
+        <description><![CDATA[CALLE PRINCIPAL: Los Españoles<br>CALLE LIMITE 1: Cerro Alegre <br>CALLE LIMITE 2:  Cementerio]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.619186,-33.578176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Placilla</name>
+        <description><![CDATA[CALLE PRINCIPAL: Caupolicán<br>CALLE LIMITE 1: Palmieri  <br>CALLE LIMITE 2: Del Centenario]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.605389,-33.581608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria M. Montt</name>
+        <description><![CDATA[CALLE PRINCIPAL: Manuel Montt <br>CALLE LIMITE 1:  Florencia <br>CALLE LIMITE 2: Napoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.598608,-33.593102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria de Armando Pino</name>
+        <description><![CDATA[CALLE PRINCIPAL: Armando Pino<br>CALLE LIMITE: Luis Bossay]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.59554,-33.593835,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Los Nogales</name>
+        <description><![CDATA[CALLE PRINCIPAL: Las Acacias<br>CALLE LIMITE 1: Soledad <br>CALLE LIMITE 2: Damiana Carrera]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.609241,-33.584969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Llo Lleo Alto</name>
+        <description><![CDATA[CALLE PRINCIPAL: Olegario Henriquez<br>CALLE LIMITE 1:  Ginebra<br>CALLE LIMITE 2: Del Canelo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.601355,-33.61092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Llolleo Alto entre Los Aromos y Los Condores</name>
+        <description><![CDATA[CALLE PRINCIPAL: Olegario Henriquez <br>CALLE LIMITE 1: Baquedano   <br>CALLE LIMITE 2 :Los Condores]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.601441,-33.61612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olegario Enriquez</name>
+        <description><![CDATA[CALLE PRINCIPAL: Jose Miguel Carrera<br>CALLE LIMITE 1:  Olegario Enriquez <br>CALLE LIMITE 2: Cardenal Jose Maria Caro]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.602964,-33.609008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Samuel García</name>
+        <description><![CDATA[CALLE PRINCIPAL: Samuel García<br>CALLE LIMITE 1: 30 de marzo<br>CALLE LIMITE 2: Independencia]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.604466,-33.59312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tejas  Verdes</name>
+        <description><![CDATA[CALLE PRINCIPAL: El Arrayán <br>CALLE LIMITE 1: San Carlos <br>CALLE LIMITE 2: Fernando Concha]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.620045,-33.614941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Cerro Arena</name>
+        <description><![CDATA[CALLE PRINCIPAL: Cerro Arena<br>CALLE LIMITE 1:  Santa Rosa <br>CALLE LIMITE 2: Los Papayos]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.609874,-33.583306,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Rengo</name>
+    <description>Rengo</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>SERRANO</name>
+        <description><![CDATA[CALLE PRINCIPAL: SARGENTO ALDEA<br>CALLE LIMITE 1:  CAUPOLICAN<br>DÍAS DE POSTURA: Miércoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.856162,-34.408777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DIEGO PORTALES</name>
+        <description><![CDATA[CALLE PRINCIPAL:<br>CALLE LIMITE 1: <br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.865486,-34.409105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ROSARIO  LIBERTAD</name>
+        <description><![CDATA[CALLE PRINCIPAL: AVDA LIBERTAD<br>CALLE LIMITE 1:  BALMACEDA<br>CALLE LIMITE 2: LAS DELICIA<br>DÍAS DE POSTURA: Viernes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.85834,-34.410344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POB LAS TORRES</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AVDA GRAL MANUEL BAQUEDANO<br>CALLE LIMITE 1:  DR RENATO CORREA<br>CALLE LIMITE 2: GUACOLDA<br>DÍAS DE POSTURA: Domingo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.854735,-34.415133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

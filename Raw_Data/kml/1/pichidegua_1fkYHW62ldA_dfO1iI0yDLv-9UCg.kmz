@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pichidegua</name>
+    <description>Pichidegua</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>LARMAHUE</name>
+        <description><![CDATA[CALLE PRINCIPAL:  LA CATOLICA <br>CALLE LIMITE 1:  VICE PARROQUIA<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.293931,-34.359699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PATAGUAS ORILLA</name>
+        <description><![CDATA[CALLE PRINCIPAL: LA VICTORIA <br>CALLE LIMITE 1: <br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.280155,-34.359557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PATAGUAS CERRO</name>
+        <description><![CDATA[CALLE PRINCIPAL: SHELL<br>CALLE LIMITE 1: <br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.289725,-34.358034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PICHIDEGUA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  CHORRILLOS<br>CALLE LIMITE 1:  FRENTE A CARABINEROS<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.282043,-34.359734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAN ROBERTO</name>
+        <description><![CDATA[CALLE PRINCIPAL: SAN ROBERTO<br>CALLE LIMITE 1:  PLAZA SAN ROBERTO<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.290841,-34.355235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL TOCO</name>
+        <description>CALLE PRINCIPAL: 4 ESQUINA</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.294875,-34.355943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PATAGUA CERRO</name>
+        <description>CALLE PRINCIPAL: LAS PALMERAS</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.286421,-34.355483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAN JOSE DE MARCHIGUE</name>
+        <description>CALLE PRINCIPAL: LADO ESCUELA</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.292686,-34.357396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PATAGUAS ORILLA</name>
+        <description>CALLE PRINCIPAL: CENTRO</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.288266,-34.359415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LARMARHUE</name>
+        <description>CALLE PRINCIPAL: PORTEZUELO</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.287708,-34.356864,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PICHIDEGUA</name>
+        <description>CALLE PRINCIPAL: CHORRILLOS</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.284661,-34.358955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

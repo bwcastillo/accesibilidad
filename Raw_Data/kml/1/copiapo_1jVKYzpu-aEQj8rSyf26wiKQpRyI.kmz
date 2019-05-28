@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Copiapó</name>
+    <description>Copiapó</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Feria Libre de Copiapo</name>
+        <description><![CDATA[CALLE PRINCIPAL: Circunvalación<br>CALLE LIMITE 1:  Lastarria<br>CALLE LIMITE 2: Colo Colo<br>DÍAS DE POSTURA: 	Domingo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.321534,-27.36687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre de Copiapo</name>
+        <description><![CDATA[CALLE PRINCIPAL: Circunvalación<br>CALLE LIMITE 1:  Luis Flores<br>CALLE LIMITE 2: Van Buren<br>DÍAS DE POSTURA: 	Martes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.312114,-27.375369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre de Copiapo</name>
+        <description><![CDATA[CALLE PRINCIPAL: Av. El Chañal<br>CALLE LIMITE 1:  Carlos Condell<br>CALLE LIMITE 2: Blanco Encalada<br>DÍAS DE POSTURA: 	Miércoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.309153,-27.361353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre de Copiapo</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Copayapu<br>CALLE LIMITE 1:  Av. Estadio<br>CALLE LIMITE 2: Luis Flores<br>DÍAS DE POSTURA: 	Jueves]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.32104,-27.37797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre de Copiapo</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Juan Godoy<br>CALLE LIMITE 1:  Chañarcillo<br>CALLE LIMITE 2: Viel<br>DÍAS DE POSTURA: 	Viernes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.34327,-27.363869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre de Copiapo</name>
+        <description><![CDATA[CALLE PRINCIPAL: Av. Lastarria<br>CALLE LIMITE 1:  Los Loros<br>CALLE LIMITE 2: Isabel Riquelme<br>DÍAS DE POSTURA: 	Sábado]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.321759,-27.362325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

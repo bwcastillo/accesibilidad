@@ -1,23 +1,26 @@
 library(rgdal)
 library(maptools)
+View(KMZs)
 
-for (i in seq(KMZs)){
-zz[[i]]<- getKMLcoordinates(paste0("C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/kml/8/",KMZs[i]), ignoreAltitude = T)
+
+zz<-c()
+for (i in 1:seq(KMZs)){
+zz[[i]]<- getKMLcoordinates(paste0("C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/kml/1/",KMZs[i]), ignoreAltitude = T)
 zz[[i]] <- do.call(rbind, zz[[i]])
 colnames(zz[[i]]) <- c("lon", "lat")
 if (class(zz[[i]]) == "matrix" | length(zz) == 1) {print(KMZs[i]);next()}
-tmp <- do.call(rbind, zz[[i]])
+tmp <- do.call(rbind, zz)
 colnameszz[[i]] <- c("lon", "lat")
-LonLat <- rbind(LonLat, zz[[i]])
-}
+LonLat <- rbind(LonLat, zz)
 
-tmp <- getKMLcoordinates(paste0("C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/kml/8/",KMZs[i]), ignoreAltitude = T)
+
+tmp <- getKMLcoordinates(paste0("C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/kml/1/",KMZs[i]), ignoreAltitude = T)
 
   tmp <- do.call(rbind, tmp)
   colnames(tmp) <- c("lon", "lat")
   LonLat <- rbind(LonLat, tmp) #LON LAT Aquí a que objeto referencia?
 
-
+}
   
   
   

@@ -2,6 +2,7 @@ library(rvest)
 library(stringr)
 library(RCurl)
 library(rgdal)
+library(tidyr)
 setwd("E:/Owncloud Cedeus/Indicadores_de_Sustentabilidad_-_Datos/92._Accesibilidad_a_Ferias/")
 
 # Definir carpetas de trabajo
@@ -27,6 +28,8 @@ maps <- sapply(urls, function(x) {
     html_attr("src")
 }
 )
+
+
 # Un sapply que extrae los ids de los archivos kml de cada comuna
 
 ids <- sapply(maps, function(x) {

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Antofagasta</name>
+    <description>Antofagasta</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Ferias de las pulgas</name>
+        <description><![CDATA[CALLE PRINCIPAL: Pantaleón Cortes <br>CALLE LIMITE 1: Av. General Oscar Bonilla <br>CALLE LIMITE 2:  Av. Luis Cruz Martinez<br>DÍAS DE POSTURA: Domingo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.37653,-23.601529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Modelo Bernardo O´Higgins</name>
+        <description><![CDATA[CALLE PRINCIPAL: Anibal Pinto 3391<br>CALLE LIMITE 1: La Canadá  <br>CALLE LIMITE 2: Atrás Hotel <br>DÍAS DE POSTURA: Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.396721,-23.639492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sociedad Central Vega</name>
+        <description><![CDATA[CALLE PRINCIPAL: Iquique 4772<br>CALLE LIMITE 1:  Alonso de Ercilla<br>CALLE LIMITE 2: Hernan Cortez<br>DÍAS DE POSTURA: 	Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.393524,-23.625653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rotativa Antofagasta</name>
+        <description><![CDATA[CALLE PRINCIPAL: Manuel Rodriguez<br>CALLE LIMITE 1:  Uribe<br>CALLE LIMITE 2: Pasaje Abarca<br>DÍAS DE POSTURA: 	Jueves]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.392258,-23.657929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rotativa Antofagasta</name>
+        <description><![CDATA[CALLE PRINCIPAL: Pisagua<br>CALLE LIMITE 1:  El Lapislazuri<br>CALLE LIMITE 2: Los Rubi<br>DÍAS DE POSTURA: 	Martes - Sábado - Domingo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.38817,-23.622448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rotativa Antofagasta</name>
+        <description><![CDATA[CALLE PRINCIPAL: Calbuco<br>CALLE LIMITE 1:  Pisagua<br>CALLE LIMITE 2: Montegrande<br>DÍAS DE POSTURA:	Miércoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.384716,-23.621495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rotativa Antofagasta</name>
+        <description><![CDATA[CALLE PRINCIPAL: Puerto Montt<br>CALLE LIMITE 1:  Pisagua<br>CALLE LIMITE 2: Montegrande<br>DÍAS DE POSTURA: 	Viernes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.382506,-23.621259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Arturo Prat</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AV. Carlos Oviedo Cavada<br>CALLE LIMITE 1:  Huasco<br>CALLE LIMITE 2:Valdivia<br>DÍAS DE POSTURA: 	Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.382195,-23.619637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Juan Pablo II</name>
+        <description><![CDATA[CALLE PRINCIPAL: Av.Huamachuco 9850<br>CALLE LIMITE 1:  El Lapislazuri<br>CALLE LIMITE 2: El Opalo<br>DÍAS DE POSTURA: 	Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.388374,-23.538967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria 14 de Febrero</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Av 14 de Febrero<br>CALLE LIMITE 1:  Baquedano<br>CALLE LIMITE 2: Esmeralda<br>DÍAS DE POSTURA: 	Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.392194,-23.649536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

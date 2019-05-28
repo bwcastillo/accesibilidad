@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Machalí</name>
+    <description>Machalí</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>POB SALVADOR ALLENDE</name>
+        <description><![CDATA[CALLE PRINCIPAL:  DIEGO PORTALES<br>CALLE LIMITE 1:  BALMACEDA<br>CALLE LIMITE 2: CAMILO ENRRIQUEZ<br>DÍAS DE POSTURA: 	Martes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.650308,-34.167482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HUASCAR</name>
+        <description><![CDATA[CALLE PRINCIPAL:  HUASCAR<br>CALLE LIMITE 1:  AVDA SAN JUAN<br>CALLE LIMITE 2: CALLEJON LO PEREZ<br>DÍAS DE POSTURA: 	Miércoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.652776,-34.176341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MAITEN</name>
+        <description><![CDATA[MAITEN<br>DÍAS DE POSTURA: Jueves]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.661058,-34.183832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TARAPACA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  TARAPACA<br>CALLE LIMITE 1:  MIRAFLORES<br>CALLE LIMITE 2: PISAGUA<br>DÍAS DE POSTURA: 	Viernes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.644557,-34.178258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>STA TERESA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  ESPERANZA<br>CALLE LIMITE 1:  LAS ACACIAS<br>CALLE LIMITE 2: SEWELL<br>DÍAS DE POSTURA: 	Sábado]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.644332,-34.174157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA EL BOSQUE</name>
+        <description><![CDATA[VILLA EL BOSQUE<br><br>DÍAS DE POSTURA: 	Domingo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.642347,-34.166292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

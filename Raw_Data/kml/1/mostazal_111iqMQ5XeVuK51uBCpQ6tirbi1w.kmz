@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mostazal</name>
+    <description>Mostazal</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>SANTA JULIA</name>
+        <description><![CDATA[CALLE PRINCIPAL: SANTA JULIA<br>CALLE LIMITE 1:  INDEPENDENCIA<br>CALLE LIMITE 2: CONDELL<br>DÍAS DE POSTURA: 	Martes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.695305,-33.973972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mostazal</name>
+        <description>DÍAS DE POSTURA: Miércoles</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.713329,-33.985431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA PUNTA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  LAS ENCINAS<br>CALLE LIMITE 1:  PSAJE 1 NORTE<br>CALLE LIMITE 2: PASAJE DOS<br>DÍAS DE POSTURA: 	Jueves]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.711184,-33.967068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>INDEPENDENCIA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  CONDELL<br>CALLE LIMITE 1:  STA JULIA<br>CALLE LIMITE 2: INDEPENDENCIA<br>DÍAS DE POSTURA: 	Viernes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.708609,-33.978385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mostazal</name>
+        <description>DÍAS DE POSTURA: Sábado</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.697708,-33.978456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>INDEPENDENCIA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AV. INDEPENDENCIA<br>CALLE LIMITE 1:  LAS ENCINAS<br>CALLE LIMITE 2: PABLO NERUDA<br>DÍAS DE POSTURA: 	Domingo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.70715,-33.966783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JUBILADOS INP</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AV. INDEPENCIA NORTE<br>CALLE LIMITE 1: GIMNASIO<br>CALLE LIMITE 2: LICEO MUNICIPAL<br>DÍAS DE POSTURA: 	Pago INP]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.705004,-33.972335,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

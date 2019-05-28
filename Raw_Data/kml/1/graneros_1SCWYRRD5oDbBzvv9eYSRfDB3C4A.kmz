@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Graneros</name>
+    <description>Graneros</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>SALVADOR GUTIERREZ</name>
+        <description><![CDATA[CALLE PRINCIPAL: SALVADOR GUTIERRES<br>CALLE LIMITE 1:  VALPARAISO<br>CALLE LIMITE 2: SANTIAGO<br>DÍAS DE POSTURA: 	Miércoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.733757,-34.065032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JOSE MIGUEL CAUSIÑO</name>
+        <description><![CDATA[CALLE PRINCIPAL:  JOSE MIGUEL CAUSIÑO<br>CALLE LIMITE 1:  AV. LA COMPAÑA<br>CALLE LIMITE 2: ANTONIO VARAS<br>DÍAS DE POSTURA: 	Viernes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.73822,-34.074488,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA COMPAÑÍA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  CALLEJON LAS AGUILAS<br>CALLE LIMITE 1: <br>CALLE LIMITE 2:<br>DÍAS DE POSTURA: 	Sábado]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.728178,-34.070791,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AVDA LA COMPAÑÍA (FERIA DE LAS PULGAS)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AV. LA COMPAÑÍA<br>CALLE LIMITE 1:  FRENTE SUPERMERCADO BRIC<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA: 	Sábado]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.728693,-34.06169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GUILLERMO BERRIOS</name>
+        <description><![CDATA[CALLE PRINCIPAL:  GUILLERMO BERRIOS<br>CALLE LIMITE 1:  OVALLE<br>CALLE LIMITE 2: PASAJE 20<br>DÍAS DE POSTURA: 	Domingo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.734701,-34.070151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BARROS BORGOÑO (ULTIMO DOMINGO DEL MES)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  BARROS BOLGOÑO<br>CALLE LIMITE 1:  LINEA FERREA<br>CALLE LIMITE 2: PLAZA<br>DÍAS DE POSTURA: 	Último Domingo del mes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.732813,-34.073422,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

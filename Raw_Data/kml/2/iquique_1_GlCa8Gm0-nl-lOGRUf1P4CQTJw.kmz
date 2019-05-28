@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Iquique</name>
+    <description>Iquique</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Feria de Asociación Itinerante</name>
+        <description><![CDATA[CALLE PRINCIPAL: José Miguel Carrera<br>CALLE LIMITE 1:  Oscar Bonilla<br>CALLE LIMITE 2: 18 de Septiembre<br>DÍAS DE POSTURA: Martes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.14204,-20.226523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria de Asociación Itinerante</name>
+        <description><![CDATA[CALLE PRINCIPAL: Av. Chipana<br>CALLE LIMITE 1:  Carmelo<br>CALLE LIMITE 2: Quillahua<br>DÍAS DE POSTURA: Miércoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.124424,-20.251005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria de Asociación Itinerante</name>
+        <description><![CDATA[CALLE PRINCIPAL: Errazuriz <br>CALLE LIMITE 1:  O´Higgins  <br>CALLE LIMITE 2: Orella<br>DÍAS DE POSTURA: Jueves]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.143692,-20.219697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria de Asociación Itinerante</name>
+        <description><![CDATA[CALLE PRINCIPAL: Covadonga <br>CALLE LIMITE 1:  Wilsson  <br>CALLE LIMITE 2: Thomson <br>DÍAS DE POSTURA: Viernes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.154572,-20.21422,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria de Asociación Itinerante</name>
+        <description><![CDATA[CALLE PRINCIPAL: Piloto Pardo <br>CALLE LIMITE 1: 21 de Mayo<br>CALLE LIMITE 2: Oscar Bonilla<br>DÍAS DE POSTURA: Sábado]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.140603,-20.213203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria de Asociación Itinerante</name>
+        <description><![CDATA[CALLE PRINCIPAL: Las Rosas<br>CALLE LIMITE 1:  Pedro Prado<br>CALLE LIMITE 2: Pedro Garboni <br>DÍAS DE POSTURA: Domingo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.135818,-20.238472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

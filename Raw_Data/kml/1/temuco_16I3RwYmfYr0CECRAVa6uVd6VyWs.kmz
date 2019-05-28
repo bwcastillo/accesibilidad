@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Temuco</name>
+    <description>Temuco</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Feria Anibal Pinto</name>
+        <description><![CDATA[CALLE PRINCIPAL: Anibal Pinto<br>CALLE LIMITE 1:  Lautaro<br>CALLE LIMITE 2: Bilbao<br>DÍAS DE POSTURA:	 Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.580276,-38.734502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro comercial Y artesana Labranza</name>
+        <description><![CDATA[CALLE PRINCIPAL: 3 poniente<br>CALLE LIMITE 1:  1 norte<br>CALLE LIMITE 2: 2 norte<br>DÍAS DE POSTURA:	 Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.598815,-38.728142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Millahue</name>
+        <description><![CDATA[CALLE PRINCIPAL: Francisco Salazar<br>CALLE LIMITE 1:  Millahue<br>CALLE LIMITE 2: retamal<br>DÍAS DE POSTURA:	 Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.614372,-38.748762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Millahue Artesanos</name>
+        <description><![CDATA[CALLE PRINCIPAL: Balmaceda<br>CALLE LIMITE 1:  Bulnes<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	 Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.587914,-38.733632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sindicato de floristas Independientes</name>
+        <description><![CDATA[CALLE PRINCIPAL: Balmaceda<br>CALLE LIMITE 1: blanco<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	 Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.601283,-38.731891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

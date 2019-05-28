@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Puerto Montt</name>
+    <description>Puerto Montt</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Artesanos de Angelmo</name>
+        <description><![CDATA[CALLE PRINCIPAL:Avenida Angelmo<br>CALLE LIMITE 1: Avda. Angelmo<br>CALLE LIMITE 2: Cocinerias<br>DÍAS DE POSTURA:	 Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.95763,-41.483505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Progreso y emprendedores</name>
+        <description><![CDATA[CALLE PRINCIPAL:Crucero<br>CALLE LIMITE 1: <br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.939262,-41.47566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Los Lirios del Valle</name>
+        <description><![CDATA[CALLE PRINCIPAL: Avda Transversal 1<br>CALLE LIMITE 1:  Esquina Sector N-S<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	 Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.946558,-41.463505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salvador Allende</name>
+        <description><![CDATA[CALLE PRINCIPAL: Avda Salvador Allende<br>CALLE LIMITE 1:  Antonio Varas<br>CALLE LIMITE 2: Andres Bello<br>DÍAS DE POSTURA:	 Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.94982,-41.476689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salvador Allende</name>
+        <description><![CDATA[CALLE PRINCIPAL:Avda Salvador Allende<br>CALLE LIMITE 1: Antonio Varas<br>CALLE LIMITE 2:Andres Bello<br>DÍAS DE POSTURA:	Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.951021,-41.477011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Puerto Montt 5</name>
+        <description><![CDATA[CALLE PRINCIPAL:<br>CALLE LIMITE 1: <br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	Lun-Mar-Mier-Jue-Vier-Sab]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.930508,-41.474117,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado Municipal Presidente Ibañez</name>
+        <description><![CDATA[CALLE PRINCIPAL:Presidente Ibañez 716<br>CALLE LIMITE 1: <br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.95248,-41.463183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado Municipal</name>
+        <description><![CDATA[CALLE PRINCIPAL:<br>CALLE LIMITE 1: <br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.994537,-41.481448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

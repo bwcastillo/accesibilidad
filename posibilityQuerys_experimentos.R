@@ -1,11 +1,11 @@
 library(tidyverse); library(sf); library(RCurl); library(glue)
 
 homedir <- "c:/Users/rdgov/Documents/Magister Desarrollo Urbano/Planificacion Urbana/"
-input <- glue("C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/Shapefiles")
+input <- glue("C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/Shapefiles/feriasChile")
 
-ptos <- read_sf(dsn = input, layer = "Ferias_8") %>%
+ptos <- read_sf(dsn = input, layer = "feriasChile") %>%
 st_set_crs(4326)
-
+View(ptos)
 isocrona()
 coordinates <- st_coordinates(ptos)[1,]
 coordinates <- paste(coordinates[2], coordinates[1], sep = ",")

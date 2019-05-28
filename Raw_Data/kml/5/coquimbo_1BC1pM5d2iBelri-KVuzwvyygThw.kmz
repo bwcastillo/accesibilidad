@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Coquimbo</name>
+    <description>Coquimbo</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Feria Parte Alta de Coquimbo</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Lira<br>CALLE LIMITE 1:  Anita Lizama<br>CALLE LIMITE 2: La Anima<br>DÍAS DE POSTURA:	Viernes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.344528,-29.950565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Las Torres</name>
+        <description><![CDATA[CALLE PRINCIPAL: Av. Alessandri<br>CALLE LIMITE 1:  Los Copihues<br>CALLE LIMITE 2: Av. Salvador Allende<br>DÍAS DE POSTURA: 	Lunes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.334486,-29.983227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Sector San Juan</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Manuel Jesus Rivera<br>CALLE LIMITE 1:  J. J. Oliver<br>CALLE LIMITE 2: Carlos Barrios<br>DÍAS DE POSTURA: 	Mier-Sab]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.325431,-29.970531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria de Abastos</name>
+        <description><![CDATA[CALLE PRINCIPAL: Maipú Nº 146<br>CALLE LIMITE 1:  Portales<br>CALLE LIMITE 2: Costanera<br>DÍAS DE POSTURA: 	Mar-Jue-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.328027,-29.963672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Tierras Blancas</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Linares<br>CALLE LIMITE 1:  René Schneider<br>CALLE LIMITE 2: Valdivia<br>DÍAS DE POSTURA: 	Mier-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.256638,-29.962278,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Sector Tongoy</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Barros<br>CALLE LIMITE 1:  Dolores Endeiza<br>DÍAS DE POSTURA: 	Lun-Vier]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.263129,-29.955474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Sector El Llano</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Tegualda<br>CALLE LIMITE 1:  Cardenal Caro<br>DÍAS DE POSTURA: 	Mier-Vier]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.341299,-29.969528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Punta Mira</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Portugal<br>CALLE LIMITE 1:  Carlos Zepeda<br>CALLE LIMITE 2: Ernesto Marín<br>DÍAS DE POSTURA: 	Feria Punta Mira]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.323972,-29.994879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Sector Guanaqueros</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Aguas Claras<br>CALLE LIMITE 1: Pacífico<br>DÍAS DE POSTURA: 	Mier-Sab]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.326364,-29.977428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

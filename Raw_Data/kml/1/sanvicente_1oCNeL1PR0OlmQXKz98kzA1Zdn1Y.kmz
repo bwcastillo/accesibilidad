@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>San Vicente de Tagua Tagua</name>
+    <description>San Vicente de Tagua Tagua</description>
+    <Style id="poly-0000FF-3000-115-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0000FF-3000-115-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0000FF-3000-115">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0000FF-3000-115-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0000FF-3000-115-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>San Vicente de Tagua Tagua</name>
+        <description>San Vicente de Tagua Tagua</description>
+        <styleUrl>#poly-0000FF-3000-115</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -71.089872,-34.423864,0
+                -71.105664,-34.42521,0
+                -71.107209,-34.440288,0
+                -71.091417,-34.448145,0
+                -71.075023,-34.449136,0
+                -71.059058,-34.448216,0
+                -71.055368,-34.441704,0
+                -71.054853,-34.435192,0
+                -71.0582,-34.426484,0
+                -71.065324,-34.425068,0
+                -71.081203,-34.424997,0
+                -71.089872,-34.423864,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

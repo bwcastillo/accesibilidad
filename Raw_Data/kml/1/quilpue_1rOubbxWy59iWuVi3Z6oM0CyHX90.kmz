@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Quilpué</name>
+    <description>Quilpué</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Belloto Centro 1-2-3</name>
+        <description><![CDATA[CALLE PRINCIPAL: Freire<br>CALLE LIMITE 1:  Calle Perú<br>CALLE LIMITE 2: Calle Colombia<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.40726,-33.047055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belloto Sur</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Troncos Viejos<br>CALLE LIMITE 1: Alba<br>CALLE LIMITE 2: <br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.407957,-33.060561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Blanco</name>
+        <description><![CDATA[CALLE PRINCIPAL: <br>CALLE LIMITE 1: <br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.440187,-33.047882,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Campo Verde</name>
+        <description><![CDATA[CALLE PRINCIPAL: Colombia<br>CALLE LIMITE 1:  Gregoria<br>CALLE LIMITE 2: Segundo de Linea<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.40741,-33.051596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colinas de Oro</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Calle Colinas de Oro<br>CALLE LIMITE 1:  Los Diamantes<br>CALLE LIMITE 2: Piedra Lanzeta<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.437676,-33.064185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Esfuerzo</name>
+        <description><![CDATA[CALLE PRINCIPAL: Gonzalez Videla<br>CALLE LIMITE 1:  Marga- Marga<br>CALLE LIMITE 2: Marisol<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.427741,-33.058349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria La Copa</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Paicavi<br>CALLE LIMITE 1:  Humboldt<br>CALLE LIMITE 2: Darwin<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.462331,-33.055049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria agricola Los Pinos</name>
+        <description><![CDATA[CALLE PRINCIPAL: Las Barrancas<br>CALLE LIMITE 1:  Valle del Paraiso<br>CALLE LIMITE 2: Valle Nevado<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.423965,-33.071184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mantos Duros</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Carlos Ibañez<br>CALLE LIMITE 1:  Solidaridad<br>CALLE LIMITE 2: Calle 8<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.471944,-33.044033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mayorista El belloto</name>
+        <description><![CDATA[CALLE PRINCIPAL: Freire<br>CALLE LIMITE 1:  Calle Perú<br>CALLE LIMITE 2: Calle Colombia<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.407936,-33.046749,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sociedad Comercial Belloto Centro Ltd.</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.407571,-33.048494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name> Sociedad Inmobiliaria Belloto Centro</name>
+        <description><![CDATA[CALLE PRINCIPAL: Colombia s/n<br>CALLE LIMITE 1:  Freire<br>CALLE LIMITE 2: Av. Peru<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.407228,-33.04799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valencia</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Los Carreras<br>CALLE LIMITE 1:  Condell Sur<br>CALLE LIMITE 2: Poblacón Valencia<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.467609,-33.04254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villa Aldevarán</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Ojos de Agua<br>CALLE LIMITE 1:  Autopista Central Sur<br>CALLE LIMITE 2: Rio Cachapoal<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.39976,-33.063672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

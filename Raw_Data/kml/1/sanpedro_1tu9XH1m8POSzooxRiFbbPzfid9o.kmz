@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>San Pedro de la Paz</name>
+    <description>San Pedro de la Paz</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>F.L.San Pedro Viejo</name>
+        <description><![CDATA[CALLE PRINCIPAL: Lota<br>CALLE LIMITE 1:  Colo - Colo<br>CALLE LIMITE 2: Galvarino<br>DÍAS DE POSTURA:	Miércoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.092771,-36.840133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Boca Sur</name>
+        <description><![CDATA[CALLE PRINCIPAL: Irene Morales<br>CALLE LIMITE 1:  Pasaje 18<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	Sábado]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.146629,-36.838622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Bulnes</name>
+        <description><![CDATA[CALLE PRINCIPAL: Avda. Michaugue <br>CALLE LIMITE 1:  Manuel Rodriguez<br>CALLE LIMITE 2: Bandejon sin nombre<br>DÍAS DE POSTURA Domingo:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.139548,-36.844289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Candelaria </name>
+        <description><![CDATA[CALLE PRINCIPAL:  Las Torres<br>CALLE LIMITE 1:  Diagonal<br>CALLE LIMITE 2: Carabinero<br>DÍAS DE POSTURA:	 Jueves]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.127747,-36.827064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Lomas Coloradas</name>
+        <description><![CDATA[CALLE PRINCIPAL: Javiera Carrera<br>CALLE LIMITE 1:  Victoria<br>CALLE LIMITE 2: Los Sauces<br>DÍAS DE POSTURA:	Miércoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.138003,-36.885044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

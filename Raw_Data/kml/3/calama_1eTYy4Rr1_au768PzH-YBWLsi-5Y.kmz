@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Calama</name>
+    <description>Calama</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Feria Rotativa de Calama</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Lord Crochane<br>CALLE LIMITE 1:  Ernesto Riquelme<br>CALLE LIMITE 2: Mateo de Toto y Zambrano<br>DÍAS DE POSTURA:	 Viernes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -68.922496,-22.443418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Rotativa de Calama</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Arauco<br>CALLE LIMITE 1:  Hurtado de Mendoza<br>CALLE LIMITE 2: Carlos Cisterna<br>DÍAS DE POSTURA:	 Martes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -68.944801,-22.458083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Rotativa de Calama</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Ejercito<br>CALLE LIMITE 1:  Av. Capitan Arturo Prat<br>CALLE LIMITE 2: Finlandia<br>DÍAS DE POSTURA:  Jueves]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -68.930038,-22.446046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Berlin</name>
+        <description><![CDATA[CALLE PRINCIPAL: Berlin<br>CALLE LIMITE 1:  Maipu<br>CALLE LIMITE 2: Manuel Montt<br>DÍAS DE POSTURA:	 Sábado]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -68.936465,-22.450677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Rotativa de Calama</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Gabriela Mistral<br>CALLE LIMITE 1:  Av. Turi<br>CALLE LIMITE 2: Carlos Condell<br>DÍAS DE POSTURA:	 Domingo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -68.926809,-22.474066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Rotativa de Calama</name>
+        <description><![CDATA[CALLE PRINCIPAL: Brasilia<br>CALLE LIMITE 1:  Paula Jaraquemada<br>CALLE LIMITE 2: Sotomayor<br>DÍAS DE POSTURA:	 Miércoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -68.934888,-22.463051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria el Loa</name>
+        <description><![CDATA[CALLE PRINCIPAL: Antofagasta<br>CALLE LIMITE 1:  Latorre<br>CALLE LIMITE 2: Bartolome vivas<br>DÍAS DE POSTURA:	 Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -68.925511,-22.458926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria las Pulgas</name>
+        <description><![CDATA[CALLE PRINCIPAL: Arauco<br>CALLE LIMITE 1: Hurtado de Mendoza<br>CALLE LIMITE 2:  Sotomayor<br>DÍAS DE POSTURA:	 Lunes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -68.94463,-22.462605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria las Pulgas</name>
+        <description><![CDATA[CALLE PRINCIPAL: Ejercito<br>CALLE LIMITE 1:  Av. Alejandro Rodriguez<br>CALLE LIMITE 2: Canada<br>DÍAS DE POSTURA:	 Martes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -68.929159,-22.441445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria las Pulgas</name>
+        <description><![CDATA[CALLE PRINCIPAL: Berlin<br>CALLE LIMITE 1:  Av. Vasco de Gama<br>CALLE LIMITE 2: Av. Diego de Almagro<br>DÍAS DE POSTURA:	Miercoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -68.935821,-22.447692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria las Pulgas</name>
+        <description><![CDATA[CALLE PRINCIPAL: Brasilia<br>CALLE LIMITE 1:  chacabuco<br>CALLE LIMITE 2: Carlos Cisterna<br>DÍAS DE POSTURA:	 Sábado]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -68.93506,-22.458083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria las Pulgas</name>
+        <description><![CDATA[CALLE PRINCIPAL:  Carlos Cisterna<br>CALLE LIMITE 1:  Pedro de valdivia <br>CALLE LIMITE 2: Colo Colo <br>DÍAS DE POSTURA:	 Domingo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -68.944394,-22.459928,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
