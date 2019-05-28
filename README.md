@@ -2,10 +2,10 @@
 
 multipleKMZ.R
   WebScrapping:
-      -Consulta por las ferias en la web de asociación de ferias
-      -Consigue los KML
-      -Crea carpetas para cada región
-      -Guarda los KML todos en una sola carpeta (debo optimizar esta parte del código)
+     -Consulta por las ferias en la web de asociación de ferias
+     -Consigue los KML
+     -Crea carpetas para cada región
+     -Guarda los KML todos en una sola carpeta (debo optimizar esta parte del código)
        
        -Tareas pendientes para optimizar este script
        1)La primera es que el objeto que registra todas las comunas, también aparezca la región a la cual pertenece
