@@ -7,9 +7,11 @@ multipleKMZ.R
      -Crea carpetas para cada región
      -Guarda los KML todos en una sola carpeta (debo optimizar esta parte del código)
        
-       -Tareas pendientes para optimizar este script
-       1)La primera es que el objeto que registra todas las comunas, también aparezca la región a la cual pertenece
-       2)Lograr guardar los archivos kmz de las ferias comunales en la carpeta de la región a las cuales pertenecen
+      -Tareas pendientes para optimizar este script:
+      1)La primera es que en el objeto que registra todas las comunastambién aparezca la región a la cual pertenece
+      - bucle for de la línea 30
+      2)Lograr guardar los archivos kmz de las ferias comunales en la carpeta de la región a las cuales pertenecen
+       
        
    KMZ to SHAPE
        -Hecho manualmente a través de un bucle for en la línea 139-140:
