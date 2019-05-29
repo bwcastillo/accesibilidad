@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La Pintana</name>
+    <description>La Pintana</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>LAS PARCELAS</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS PARCELAS<br>CALLE LIMITE 1:  GENERAL ARRIAGADA<br>CALLE LIMITE 2:  HEDITH MADGE DE HUNNEUS<br>DÍAS DE POSTURA: <br><br>   MIÉRCOLE S   SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.61825,-33.561942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANTO TOMAS</name>
+        <description><![CDATA[CALLE PRINCIPAL: SANTO TOMAS<br>CALLE LIMITE 1:  SERENA<br>CALLE LIMITE 2: BAHÍA CATALINA<br>DÍAS DE POSTURA: MARTES	VIERNES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.614216,-33.55613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SALVADOR DALI - FRANCO</name>
+        <description><![CDATA[CALLE PRINCIPAL: ALMIRANTE LA TORRE<br>CALLE LIMITE 1:  GENERAL FRANCO<br>CALLE LIMITE 2: OBSERVATORIO<br>DÍAS DE POSTURA: MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.64651,-33.562192,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL OMBU</name>
+        <description><![CDATA[CALLE PRINCIPAL: OMBUS<br>CALLE LIMITE 1:  EL MAÑIO<br>CALLE LIMITE 2: SEXTO DE LÍNEA<br>DÍAS DE POSTURA: MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.615321,-33.594514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JUANITA - EL CASTILLO</name>
+        <description><![CDATA[CALLE PRINCIPAL: JUANITA<br>CALLE LIMITE 1:  LOS NARANJOS<br>CALLE LIMITE 2: BATALLÓN MAIPO<br>DÍAS DE POSTURA: JUEVES -	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.618883,-33.591413,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL CASTILLO</name>
+        <description><![CDATA[CALLE PRINCIPAL: FUNDADOR<br>CALLE LIMITE 1:  BATALLÓN CHACABUCO<br>CALLE LIMITE 2: OMBÚ<br>DÍAS DE POSTURA: MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.61265,-33.591868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MAGDALENA</name>
+        <description><![CDATA[CALLE PRINCIPAL: P.A.CERDA<br>CALLE LIMITE 1:  OBSERVATORIO<br>CALLE LIMITE 2: ANTONIO MACHADO<br>DÍAS DE POSTURA: MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.638635,-33.563819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SALVADOR DALI -LAS AGUILAS</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS ÁGUILAS<br>CALLE LIMITE 1:  ANTONIO MACHADO<br>CALLE LIMITE 2: FRANCO<br>DÍAS DE POSTURA: MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.651907,-33.561575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL BOSQUE</name>
+        <description><![CDATA[CALLE PRINCIPAL: JOSE E. BELLO<br>CALLE LIMITE 1:  SANTO TOMAS<br>CALLE LIMITE 2: PABLO VI<br>DÍAS DE POSTURA: MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.623926,-33.556747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>J RAMIREZ</name>
+        <description><![CDATA[CALLE PRINCIPAL:  JULIO BARCNECHEA<br>CALLE LIMITE 1:  SAN FRANCISCO<br>CALLE LIMITE 2:JULIO CHÁVEZ<br>DÍAS DE POSTURA: JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.660061,-33.582725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21 DE MAYO</name>
+        <description><![CDATA[CALLE PRINCIPAL: BERNARDINO PARADA<br>CALLE LIMITE 1:  JOSÉ TORIBIO MEDINA<br>CALLE LIMITE 2:JULIO CHÁVEZ<br>DÍAS DE POSTURA:MARTES	VIERNES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.655072,-33.578042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JOHN KENNEDY -PABLO DE ROKHA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  JOHN KENNEDY<br>CALLE LIMITE 1:  BERNARDINO PARADA<br>CALLE LIMITE 2: JULIO BARRENECHEA<br>DÍAS DE POSTURA: MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.647594,-33.579221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAN RAFAEL</name>
+        <description><![CDATA[CALLE PRINCIPAL: MUÑOZ GAMERO<br>CALLE LIMITE 1:  PORTO ALEGRE<br>CALLE LIMITE 2:PATAGONIA<br>DÍAS DE POSTURA: MARTES	VIERNES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.636725,-33.580929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL SEMBRADOR</name>
+        <description><![CDATA[CALLE PRINCIPAL: SEMBRADOR<br>CALLE LIMITE 1:  PEDRO AGUIRRE CERDA<br>CALLE LIMITE 2: EL BOSQUE<br>DÍAS DE POSTURA: JUEVES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.636318,-33.558589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JOAQUIN EDWARDS BELLO </name>
+        <description><![CDATA[CALLE PRINCIPAL:  AV JOAQUIN E BELLO<br>CALLE LIMITE 1:  STO TOMAS<br>CALLE LIMITE 2: ANIBAL HUNNEUS<br>DÍAS DE POSTURA: JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.623261,-33.559707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

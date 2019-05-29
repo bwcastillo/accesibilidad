@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pomaire</name>
+    <description>Pomaire</description>
+    <Style id="poly-FF0000-3000-38-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>260000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FF0000-3000-38-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>260000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FF0000-3000-38-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF0000-3000-38-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF0000-3000-38-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Pomaire</name>
+        <styleUrl>#poly-FF0000-3000-38-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -71.16055,-33.647029,0
+                -71.159348,-33.652887,0
+                -71.156859,-33.659674,0
+                -71.153727,-33.660353,0
+                -71.148577,-33.65971,0
+                -71.1448,-33.655888,0
+                -71.143899,-33.648565,0
+                -71.149135,-33.643885,0
+                -71.155143,-33.642527,0
+                -71.158876,-33.643456,0
+                -71.16055,-33.647029,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

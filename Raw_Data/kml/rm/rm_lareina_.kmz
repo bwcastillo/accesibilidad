@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La Reina</name>
+    <description>Listado de ferias libres ubicadas en la comuna de La Reina</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>FERIA TOBALABA</name>
+        <description><![CDATA[CALLE PRINCIPAL: TOBALABA<br>CALLE LIMITE 1:  PRÍNCIPE DE GALES<br>CALLE LIMITE 2: TOBALABA<br>DÍAS DE POSTURA: MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.571966,-33.439213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DE CHACAREROS DE LA REINA</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/YuxNeZVLlwvTELsWo2R8rN14QyCeG8EIANg--ER4kKMH6kmAJja2rIapc8SXQbDZvoNR2eTMALQPAYa5xXOFqozXg0A4_49yzE2pRE1tVc320A" height="200" width="auto" /><br><br>CALLE PRINCIPAL: BILBAO<br>CALLE LIMITE 1:  FLORENCIO BARRIOS<br>CALLE LIMITE 2: PADRE HURTADO<br>DÍAS DE POSTURA: MARTES	SÁBADO<br>PRESIDENTE: JULIO VIDAL<br>OFERTA DE PRODUCTOS: TRAZABILIDAD E INOCUIDAD]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/YuxNeZVLlwvTELsWo2R8rN14QyCeG8EIANg--ER4kKMH6kmAJja2rIapc8SXQbDZvoNR2eTMALQPAYa5xXOFqozXg0A4_49yzE2pRE1tVc320A</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.544747,-33.429633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AGRUPACION DE CHACAREROS LA REINA</name>
+        <description><![CDATA[CALLE PRINCIPAL: CLORINDA HENRÍQUEZ<br>CALLE LIMITE 1:  LARRAÍN<br>CALLE LIMITE 2: LORELEY Y SÁNCHEZ FONTECILLA<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.558373,-33.4518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>QUINCHAMALÍ</name>
+        <description><![CDATA[CALLE PRINCIPAL: QUINCHAMALÍ<br>CALLE LIMITE 1:  P.12<br>CALLE LIMITE 2: CHAPILCA<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.538986,-33.455747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

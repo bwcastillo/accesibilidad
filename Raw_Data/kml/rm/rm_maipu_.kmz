@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Maipu</name>
+    <description>Maipu</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>GUAYAQUIL</name>
+        <description><![CDATA[CALLE PRINCIPAL: O'HIGGINS<br>CALLE LIMITE 1: VICTORIA<br>CALLE LIMITE 2: MIRAFLORES (OLIMPO)	<br>DÍAS DE POSTURA: MARTES  	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.77148,-33.502684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS HEROES</name>
+        <description><![CDATA[CALLE PRINCIPAL: HERMÓGENES PÉREZ DE ARCE<br>CALLE LIMITE 1: SILVA CARVALLO<br>CALLE LIMITE 2:	AMENÁBAR<br>DÍAS DE POSTURA:		MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.769806,-33.530967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LAS PARCELAS</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. LAS PARCELAS<br>CALLE LIMITE 1: SANTA CORINA (SUR DE CHILE)<br>CALLE LIMITE 2: REINO UNIDO (AV. LAS TORRES)	<br>DÍAS DE POSTURA:		JUEVES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.728993,-33.472798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VALLE ESPERANZA - EL CONQUISTADOR</name>
+        <description><![CDATA[CALLE PRINCIPAL: EL CONQUISTADOR	<br>CALLE LIMITE 1: LAS TINAJAS	<br>CALLE LIMITE 2: SAN JOSÉ (AV. PORTALES)<br>DÍAS DE POSTURA:	MARTES   	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.796864,-33.517927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LUMEN</name>
+        <description><![CDATA[CALLE PRINCIPAL: LUMEN<br>CALLE LIMITE 1: 3 NORTE	<br>CALLE LIMITE 2: PRIMO DE RIVERA (A 40 METROS DE ALASKA)<br>DÍAS DE POSTURA: MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.736847,-33.495902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3 PONIENTE</name>
+        <description><![CDATA[CALLE PRINCIPAL: 3 PONIENTE<br>CALLE LIMITE 1: MAIPÚ<br>CALLE LIMITE 2: CAMINO RINCONADA<br>DÍAS DE POSTURA:		JUEVES  	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.779419,-33.507264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LAS NACIONES</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS NACIONES<br>CALLE LIMITE 1: PORTALES<br>CALLE LIMITE 2: RINCONADA<br>DÍAS DE POSTURA:	JUEVES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.784869,-33.512703,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL ABRAZO</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS INDUSTRIAS<br>CALLE LIMITE 1: 4 PONIENTE<br>CALLE LIMITE 2:	EGIPTO (PASAJE TURQUESTÁN)	<br>DÍAS DE POSTURA:	JUEVES  	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.773411,-33.544757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PADRE HURTADO</name>
+        <description><![CDATA[CALLE PRINCIPAL: HUÁSCAR<br>CALLE LIMITE 1: PADRE HURTADO<br>CALLE LIMITE 2: SAN JOSÉ<br>DÍAS DE POSTURA:	MARTES     VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.766995,-33.515816,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4 ALAMOS</name>
+        <description><![CDATA[CALLE PRINCIPAL: SANTA MARÍA<br>CALLE LIMITE 1: VICENTE REYES (PRIMERA TRANSVERSAL)<br>CALLE LIMITE 2: SEGUNDA TRANSVERSAL<br>DÍAS DE POSTURA: 	MARTES   	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.74955,-33.518768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VALLE ESPERANZA - INCA DE ORO</name>
+        <description><![CDATA[CALLE PRINCIPAL: INCA DE ORO<br>CALLE LIMITE 1: GALAXIAS<br>CALLE LIMITE 2: 4 PONIENTE<br>DÍAS DE POSTURA:	MIÉRCOLES  	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.791779,-33.512435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CIUDAD SATELITE</name>
+        <description><![CDATA[CALLE PRINCIPAL: CALETERA CAM. MELIPILLA<br>CALLE LIMITE 1: PARQUE CENTRAL PONIENTE<br>CALLE LIMITE 2: FIN CALETERA CAMINO MELIPILLA<br>DÍAS DE POSTURA: JUEVES  	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.795319,-33.554056,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL DESCANSO</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. EL DESCANSO<br>CALLE LIMITE 1: GUSTAVO EIFFEL<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	MIÉRCOLES  	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.749958,-33.46988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BORGOÑO</name>
+        <description><![CDATA[CALLE PRINCIPAL: BORGOÑO<br>CALLE LIMITE 1:  LAS NACIONES<br>CALLE LIMITE 2:  4 PONIENTE	<br>DÍAS DE POSTURA:	 MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.787444,-33.508982,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA REFORMA</name>
+        <description><![CDATA[CALLE PRINCIPAL: LA REFORMA<br>CALLE LIMITE 1: JORGE ALLESSANDRI<br>CALLE LIMITE 2:	PJE EXCALIBUR<br>DÍAS DE POSTURA:	MARTES 	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.766394,-33.488547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TEATRO PRINCESA</name>
+        <description><![CDATA[CALLE PRINCIPAL:TEATRO PRINCESA	<br>CALLE LIMITE 1: ISABEL RIQUELME<br>CALLE LIMITE 2: TEATRO OPERA (SINFONÍA)<br>DÍAS DE POSTURA:	 	JUEVES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.766308,-33.491017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ISABEL RIQUELME</name>
+        <description><![CDATA[CALLE PRINCIPAL: ISABEL RIQUELME	<br>CALLE LIMITE 1: STA. ROSA<br>CALLE LIMITE 2: SIMÓN BOLIVAR<br>DÍAS DE POSTURA:		MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.738285,-33.483196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MODELO MAIPU (CAMINO RINCONADA)</name>
+        <description><![CDATA[CALLE PRINCIPAL: RINCONADA<br>CALLE LIMITE 1: GALAXIAS<br>CALLE LIMITE 2: 66<br>DÍAS DE POSTURA:	MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.795137,-33.506647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3 PONIENTE (SAN LUIS)</name>
+        <description><![CDATA[CALLE PRINCIPAL: 3 PONIENTE	<br>CALLE LIMITE 1: PORTALES	<br>CALLE LIMITE 2: RINCONADA	<br>DÍAS DE POSTURA:	MIÉRCOLES  	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.779129,-33.515163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JUDEA</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS INDUSTRIAS<br>CALLE LIMITE 1: JUDEA	<br>CALLE LIMITE 2: JORGE GUERRA<br>DÍAS DE POSTURA:	 MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.770643,-33.540348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA GRUTA</name>
+        <description><![CDATA[CALLE PRINCIPAL: GABRIEL GONZÁLEZ VIDELA<br>CALLE LIMITE 1: 4 PONIENTE<br>CALLE LIMITE 2: CALETA CAMARONES<br>DÍAS DE POSTURA:		MIÉRCOLES  	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.78826,-33.537022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VALLE ESPERANZA - INCA DE ORO 2</name>
+        <description><![CDATA[CALLE PRINCIPAL: INCA DE ORO<br>CALLE LIMITE 1:  4 PONIENTE<br>CALLE LIMITE 2: LAS GALAXIAS (PASAJE LA DORMIDA)<br>DÍAS DE POSTURA: 	JUEVES   	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.792712,-33.512461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FERROCARRIL</name>
+        <description><![CDATA[CALLE PRINCIPAL: FERROCARRIL<br>CALLE LIMITE 1: DOMINGO FAUSTINO SARMIENTO	<br>CALLE LIMITE 2: CERRO BARÓN<br>DÍAS DE POSTURA:	JUEVES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.77678,-33.540107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

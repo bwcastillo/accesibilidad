@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Providencia</name>
+    <description>Providencia</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>LOS CONCILIOS</name>
+        <description><![CDATA[CALLE PRINCIPAL: LOS CONCILIOS<br>CALLE LIMITE 1:  ARQUITECTO PAULY<br>CALLE LIMITE 2: CHILE-ESPAÑA<br>DÍAS DE POSTURA: VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.593059,-33.441764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANTA MARIA</name>
+        <description><![CDATA[CALLE PRINCIPAL: SANTA MARIA<br>CALLE LIMITE 1:  CALLE DEL ARZOBISPO<br>CALLE LIMITE 2: <br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.625578,-33.430394,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PROVIDENCIA</name>
+        <description><![CDATA[CALLE PRINCIPAL: MANUEL MONTT<br>CALLE LIMITE 1:  SANTA ISABEL<br>CALLE LIMITE 2: SANTA ISABEL<br>DÍAS DE POSTURA: SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.614173,-33.446858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

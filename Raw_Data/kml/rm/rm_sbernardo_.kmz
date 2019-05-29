@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>San Bernardo</name>
+    <description>San Bernardo</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>EL MANZANO (3)</name>
+        <description><![CDATA[CALLE PRINCIPAL: LO BLANCO<br>CALLE LIMITE 1: PASO DRAKE	<br>CALLE LIMITE 2: YOCAGUACHY	<br>DÍAS DE POSTURA:	JUEVES  	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.670071,-33.583914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CARVALLO</name>
+        <description><![CDATA[CALLE PRINCIPAL: CARVALLO<br>CALLE LIMITE 1: BARROS ARANA<br>CALLE LIMITE 2: VICTORIA<br>DÍAS DE POSTURA: SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.705326,-33.606792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL MANZANO (1)</name>
+        <description><![CDATA[CALLE PRINCIPAL: BALMACEDA<br>CALLE LIMITE 1: MARTIN DE SOLIS   <br>CALLE LIMITE 2: MAULLIN<br>DÍAS DE POSTURA: MARTES   VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.684941,-33.5911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VARAS</name>
+        <description><![CDATA[CALLE PRINCIPAL: ANTONIO VARAS<br>CALLE LIMITE 1:  BAQUEDANO<br>CALLE LIMITE 2: JOSÉ BESA<br>DÍAS DE POSTURA:		JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.694168,-33.596837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>YUNGAY</name>
+        <description><![CDATA[CALLE PRINCIPAL: CALLE YUNGAY <br>CALLE LIMITE 1: AMERICA <br>CALLE LIMITE 2: STGO MC-LEAN <br>DÍAS DE POSTURA: MARTES    SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.704854,-33.579052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MANZANO</name>
+        <description><![CDATA[CALLE PRINCIPAL: BALMACEDA ORIENTE<br>CALLE LIMITE 1:  VOLCAN MAIPO<br>CALLE LIMITE 2: SANTA MERCEDES<br>DÍAS DE POSTURA:		MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.674652,-33.595014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL OLIVO</name>
+        <description><![CDATA[CALLE PRINCIPAL: FCO CAMARGO<br>CALLE LIMITE 1:  CALDERON DE LA BARCA <br>CALLE LIMITE 2: STA MARTA <br>DÍAS DE POSTURA: MIÉRCOLES    SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.687666,-33.583789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COSTANERA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  COSTANERA<br>CALLE LIMITE 1:  AVENIDA COLON<br>CALLE LIMITE 2: COVADONGA<br>DÍAS DE POSTURA:		JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.711355,-33.59135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

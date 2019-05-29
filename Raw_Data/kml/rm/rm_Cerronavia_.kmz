@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Cerro Navia</name>
+    <description>Cerro Navia</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FF0000-3000-8-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>080000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FF0000-3000-8-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>080000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FF0000-3000-8-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF0000-3000-8-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF0000-3000-8-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Cerro Navia</name>
+        <styleUrl>#poly-FF0000-3000-8-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -70.768862,-33.414965,0
+                -70.773926,-33.427788,0
+                -70.7571,-33.44175,0
+                -70.73581,-33.44275,0
+                -70.70612,-33.44095,0
+                -70.71315,-33.42628,0
+                -70.71693,-33.41453,0
+                -70.73959,-33.41224,0
+                -70.75633,-33.413389,0
+                -70.768862,-33.414965,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>SARA GAJARDO Nº 9</name>
+        <description><![CDATA[CALLE PRINCIPAL: LO LÓPEZ<br>CALLE LIMITE 1:  NEPTUNO<br>CALLE LIMITE 2:DOMINGO F. SARMIENTO<br>DÍAS DE POSTURA: MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.721569,-33.425818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA CAPILLA Nº 11</name>
+        <description><![CDATA[CALLE PRINCIPAL: LA CAPILLA<br>CALLE LIMITE 1:  RESBALÓN<br>CALLE LIMITE 2: HUELEN<br>DÍAS DE POSTURA:  MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.743799,-33.415019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOYOLA</name>
+        <description><![CDATA[CALLE PRINCIPAL: CAMINO DE LOYOLA<br>CALLE LIMITE 1: CAMINO DE LOYOLA<br>CALLE LIMITE 2:PASAJE MADRE SELVA<br>DÍAS DE POSTURA:	 JUEVES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.72232,-33.436688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SALVADOR GUTIERREZ</name>
+        <description><![CDATA[CALLE PRINCIPAL:SALVADOR GUTIERREZ<br>CALLE LIMITE 1: SALVADOR GUTIERREZ<br>CALLE LIMITE 2:SANTOS REDEL<br>DÍAS DE POSTURA:	JUEVES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.729229,-33.419675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL MONTIJO</name>
+        <description><![CDATA[CALLE PRINCIPAL:SALVADOR GUTIERREZ<br>CALLE LIMITE 1: LA ESTRELLA<br>CALLE LIMITE 2:ROLANDO PETERSON<br>DÍAS DE POSTURA:	 JUEVES DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.750623,-33.416962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ROOSEVELT -TOMAS ALBA EDISON Nº5</name>
+        <description><![CDATA[CALLE PRINCIPAL: TOMAS ALBA EDISON<br>CALLE LIMITE 1:  JORGE WASHINGTON<br>CALLE LIMITE 2: EE.UU<br>DÍAS DE POSTURA: JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.736289,-33.433832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CAUQUENES</name>
+        <description><![CDATA[CALLE PRINCIPAL: CAUQUENES<br>CALLE LIMITE 1:  LO LÓPEZ<br>CALLE LIMITE 2: APOLITO SALAS<br>DÍAS DE POSTURA: MIÉRCOLES -SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.725796,-33.426427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MAPOCHO</name>
+        <description><![CDATA[CALLE PRINCIPAL: MAPOCHO<br>CALLE LIMITE 1:  HUELEN<br>CALLE LIMITE 2: RESBALÓN<br>DÍAS DE POSTURA: MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.738006,-33.423078,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MARES DE CHILE</name>
+        <description><![CDATA[CALLE PRINCIPAL: MARES DE CHILE<br>CALLE LIMITE 1:  COSTANERA SUR<br>CALLE LIMITE 2: LAS FRAGATAS<br>DÍAS DE POSTURA:  MIÉRCOLES -SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.765128,-33.417007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA VIÑITA</name>
+        <description><![CDATA[CALLE PRINCIPAL: LA ESTRELLA<br>CALLE LIMITE 1:  MAPOCHO<br>CALLE LIMITE 2: LA HONDONADA<br>DÍAS DE POSTURA:  MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.751663,-33.423562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

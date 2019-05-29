@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Conchali</name>
+    <description>Conchali</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FF0000-3000-8-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>080000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FF0000-3000-8-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>080000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FF0000-3000-8-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF0000-3000-8-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF0000-3000-8-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Conchali</name>
+        <styleUrl>#poly-FF0000-3000-8-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -70.689812,-33.366628,0
+                -70.700111,-33.366521,0
+                -70.692301,-33.383006,0
+                -70.689125,-33.390889,0
+                -70.681787,-33.403609,0
+                -70.672646,-33.400384,0
+                -70.668912,-33.397626,0
+                -70.657368,-33.395547,0
+                -70.649557,-33.392323,0
+                -70.65187,-33.38573,0
+                -70.65616,-33.37727,0
+                -70.67341,-33.3701,0
+                -70.680842,-33.367453,0
+                -70.68826,-33.36637,0
+                -70.689812,-33.366628,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>NAHUELBUTA</name>
+        <description><![CDATA[CALLE PRINCIPAL: NAHUELBUTA<br>CALLE LIMITE 1:  DOS ORIENTE<br>CALLE LIMITE 2: PUNTAGUIDO<br>DÍAS DE POSTURA:  JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.679233,-33.380802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS ACACIOS</name>
+        <description><![CDATA[CALLE PRINCIPAL: CARDENAL CARO<br>CALLE LIMITE 1:  LOS ACACIOS<br>CALLE LIMITE 2: CARRERA PINTO<br>DÍAS DE POSTURA:  JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.689329,-33.374164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANDRA</name>
+        <description><![CDATA[CALLE PRINCIPAL: SANDRA<br>CALLE LIMITE 1:  CATALINA<br>CALLE LIMITE 2: ALBERTO GONZÁLEZ<br>DÍAS DE POSTURA:  MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.665565,-33.381743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FERIA 4 CONCHALI - EL PINO</name>
+        <description><![CDATA[CALLE PRINCIPAL: EL PINO<br>CALLE LIMITE 1:  AV. INDEPENDENCIA<br>CALLE LIMITE 2: QUILICURA<br>DÍAS DE POSTURA:  VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.684801,-33.383714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MONTERREY</name>
+        <description><![CDATA[CALLE PRINCIPAL: MONTERREY<br>CALLE LIMITE 1:  BARON DE JURAS REALES<br>CALLE LIMITE 2:  FERMIN VIVACETA<br>DÍAS DE POSTURA:  MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.675435,-33.399005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CARDENAL CARO Nº 1</name>
+        <description><![CDATA[CALLE PRINCIPAL:  CARDENAL CARO<br>CALLE LIMITE 1:   INDEPENDENCIA<br>CALLE LIMITE 2:  ESTOCOLMO<br>DÍAS DE POSTURA:   MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.684168,-33.373366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TENIENTE PONCE</name>
+        <description><![CDATA[CALLE PRINCIPAL: TENIENTE PONCE<br>CALLE LIMITE 1:  SANDINO<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:  MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.671004,-33.392672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BARON DE JURAS REALES</name>
+        <description><![CDATA[CALLE PRINCIPAL: BARON DE JURAS REALES<br>CALLE LIMITE 1:  ZAPADORES<br>CALLE LIMITE 2: COMENDADOR<br>DÍAS DE POSTURA:  MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.68449,-33.389026,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ABRAHAN LINCON</name>
+        <description><![CDATA[CALLE PRINCIPAL: ABRAHAN LINCON<br>CALLE LIMITE 1:  EL CORTIJO<br>CALLE LIMITE 2: CALLE QUILICURA<br>DÍAS DE POSTURA:  DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.685413,-33.380507,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nº 4 INDEPENDENCIA</name>
+        <description><![CDATA[CALLE PRINCIPAL: JOSE MARIA CARO<br>CALLE LIMITE 1:  PASAJE CUZCO<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:  SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.688374,-33.368456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ALBERTO GONZALEZ Nº 1</name>
+        <description><![CDATA[CALLE PRINCIPAL: ALBERTO GONZALEZ<br>CALLE LIMITE 1:  ZAPADORES<br>CALLE LIMITE 2: PRINCIPAL<br>DÍAS DE POSTURA:  DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.666434,-33.388193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BARON DE JURAS REALES (2)</name>
+        <description><![CDATA[CALLE PRINCIPAL: BARON DE JURAS REALES<br>CALLE LIMITE 1:  OLIVO<br>CALLE LIMITE 2: ZAPADORES<br>DÍAS DE POSTURA:  SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.683203,-33.392556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GUANACO</name>
+        <description><![CDATA[CALLE PRINCIPAL: GUANACO<br>CALLE LIMITE 1:  PRINCIPAL<br>CALLE LIMITE 2: ZAPADORES<br>DÍAS DE POSTURA:  SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.657432,-33.385461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

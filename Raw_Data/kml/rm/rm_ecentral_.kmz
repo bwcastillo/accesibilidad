@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Estación Central</name>
+    <description>Estación Central</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>RIVAS VICUÑA</name>
+        <description><![CDATA[CALLE PRINCIPAL: RIVAS VICUÑA<br>CALLE LIMITE 1:  5 DE ABRIL<br>CALLE LIMITE 2: TORLANDIA<br>DÍAS DE POSTURA:  MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.713276,-33.46715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CURACAVI</name>
+        <description><![CDATA[CALLE PRINCIPAL: CURACAVI<br>CALLE LIMITE 1:  5 DE ABRIL<br>CALLE LIMITE 2: LAS PARCELAS<br><br>DÍAS DE POSTURA:  MARTES- VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.722663,-33.470847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAN JOSE</name>
+        <description><![CDATA[CALLE PRINCIPAL:  SAN JOSE<br>CALLE LIMITE 1:  JUANA WEBER DE AMUNATEGUI<br>CALLE LIMITE 2:  5 DE ABRIL<br>DÍAS DE POSTURA:   MIÉRCOLES- SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.701506,-33.466372,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANTA PETRONILA</name>
+        <description><![CDATA[CALLE PRINCIPAL: SANTA PETRONILA<br>CALLE LIMITE 1: EMBAJADOR QUINTANA<br>CALLE LIMITE 2: PORTO SEGURO<br>DÍAS DE POSTURA: JUEVES    DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.704982,-33.450045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NOGALES</name>
+        <description><![CDATA[CALLE PRINCIPAL: ANTARTICA<br>CALLE LIMITE 1: GENERAL VELÁZQUEZ<br>CALLE LIMITE 2: SANTA TERESA CON PINGÜINO<br>DÍAS DE POSTURA: JUEVES    DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.689919,-33.469844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AMENGUAL</name>
+        <description><![CDATA[CALLE PRINCIPAL: MANUEL THOMPSON <br>CALLE LIMITE 1: AMENGUAL<br>CALLE LIMITE 2: RECREO<br>DÍAS DE POSTURA: JUEVES   DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.696313,-33.457027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>QUEMCHI  </name>
+        <description><![CDATA[CALLE PRINCIPAL: QUEMCHI    <br>CALLE LIMITE 1: LAS ESTEPAS<br>CALLE LIMITE 2: PALENA<br>DÍAS DE POSTURA: JUEVES     DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.711613,-33.474444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANTA TERESA   </name>
+        <description><![CDATA[CALLE PRINCIPAL: SANTA TERESA    <br>CALLE LIMITE 1: 5 DE ABRIL    <br>CALLE LIMITE 2: VETERANO   <br>DÍAS DE POSTURA:  MARTES    VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.691614,-33.462398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANTIAGO</name>
+        <description><![CDATA[CALLE PRINCIPAL: LUIS CRUZ MARTINES<br>CALLE LIMITE 1: VICENTE IRARRÁZAVAL   <br>CALLE LIMITE 2: USPALLATA<br>DÍAS DE POSTURA: MARTES    VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.694361,-33.475357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CRISTO</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS VIOLETAS <br>CALLE LIMITE 1: EL BOLDO<br>CALLE LIMITE 2: LAS PETUNIAS <br>DÍAS DE POSTURA: MARTES    VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.70878,-33.459462,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TAITAO</name>
+        <description><![CDATA[CALLE PRINCIPAL: TAITAO<br>CALLE LIMITE 1:  AEROPUERTO<br>CALLE LIMITE 2:  LEMUY<br>DÍAS DE POSTURA: MIÉRCOLES    SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.709596,-33.469808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

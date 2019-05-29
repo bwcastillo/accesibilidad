@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pudahuel</name>
+    <description>Pudahuel</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>LA ESTRELLA</name>
+        <description><![CDATA[CALLE PRINCIPAL: LA ESTRELLA SUR<br>CALLE LIMITE 1:  LAGUNA SUR<br>CALLE LIMITE 2: LOS MARES<br>DÍAS DE POSTURA: JUEVES- DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.753112,-33.462988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SERRANO</name>
+        <description><![CDATA[CALLE PRINCIPAL:  SERRANO<br>CALLE LIMITE 1:  SAN DANIEL<br>CALLE LIMITE 2: YUNGAY<br>DÍAS DE POSTURA: JUEVES-DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.766255,-33.432605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANTA CORINA</name>
+        <description><![CDATA[CALLE PRINCIPAL: CORONA SUECA<br>CALLE LIMITE 1:  LOS EDILES<br>CALLE LIMITE 2: EL SALITRE<br>DÍAS DE POSTURA: MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.747479,-33.4477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FALDAS DEL MORRO</name>
+        <description><![CDATA[CALLE PRINCIPAL: FALDAS DEL MORRO<br>CALLE LIMITE 1:  LA ESTRELLA<br>CALLE LIMITE 2: OSA MAYOR<br>DÍAS DE POSTURA: JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.756041,-33.44821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VICTORIA Nº 2</name>
+        <description><![CDATA[CALLE PRINCIPAL: VICTORIA<br>CALLE LIMITE 1:  LAS PEÑAS<br>CALLE LIMITE 2: PASAJE DOS CORONAS<br>DÍAS DE POSTURA: MARTES - VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.757918,-33.440198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TENIENTE CRUZ</name>
+        <description><![CDATA[CALLE PRINCIPAL: ESTACIONAMIENTOS TNTE. CRUZ<br>CALLE LIMITE 1:  RICARDO VIAL<br>CALLE LIMITE 2: SAN FRANCISCO<br>DÍAS DE POSTURA: MARTES .- VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.740752,-33.440412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TRAVESÍA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AV. LA TRAVESÍA<br>CALLE LIMITE 1:  OCEANÍA<br>CALLE LIMITE 2: ISLA GRANDE DE TIERRA DEL FUEGO<br>DÍAS DE POSTURA: MARTES - VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.75323,-33.455488,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL ANILLO</name>
+        <description><![CDATA[CALLE PRINCIPAL: J.J PÉREZ<br>CALLE LIMITE 1:  LA ESTRELLA<br>CALLE LIMITE 2: TENIENTE CRUZ<br>DÍAS DE POSTURA: MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.745516,-33.430098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TRAVESÍA (2)</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. LA TRAVESÍA<br>CALLE LIMITE 1:  TENIENTE CRUZ<br>CALLE LIMITE 2: MAR DE DRAKE<br>DÍAS DE POSTURA: MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.742705,-33.457385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

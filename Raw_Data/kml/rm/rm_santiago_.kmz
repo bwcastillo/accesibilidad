@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Santiago</name>
+    <description>Santiago</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>PORTALES</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. PORTALES<br>CALLE LIMITE 1:  LIBERTAD<br>CALLE LIMITE 2: MAIPÚ<br>DÍAS DE POSTURA: 	JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.675414,-33.443277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HERRERA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  HERRERA<br>CALLE LIMITE 1:  SAN PABLO<br>CALLE LIMITE 2: MAPOCHO<br>DÍAS DE POSTURA: MARTES - MIÉRCOLES - VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.678504,-33.43162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MARTINEZ DE ROSAS</name>
+        <description><![CDATA[CALLE PRINCIPAL:  MARTINEZ DE ROSAS<br>CALLE LIMITE 1:  RICARDO CUMMINGS<br>CALLE LIMITE 2: AV. BRASIL<br>DÍAS DE POSTURA: 	MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.666916,-33.43368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PEDRO LAGOS</name>
+        <description><![CDATA[CALLE PRINCIPAL: PEDRO LAGOS<br>CALLE LIMITE 1:  LIRA<br>CALLE LIMITE 2: CARMEN<br>DÍAS DE POSTURA: 	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.633818,-33.464045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10 DE JULIO</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AV. DIEZ DE JULIO<br>CALLE LIMITE 1:  VICUÑA MACKENNA<br>CALLE LIMITE 2: PORTUGAL<br>DÍAS DE POSTURA: 	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.632648,-33.4518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAN CAMILO</name>
+        <description><![CDATA[CALLE PRINCIPAL: FRAY SAN CAMILO<br>CALLE LIMITE 1:  ARGOMEDO<br>CALLE LIMITE 2: MARÍN<br>DÍAS DE POSTURA:	MIÉRCOLES - VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.634558,-33.447619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BLANCO ENCALADA</name>
+        <description><![CDATA[CALLE PRINCIPAL: BLANCO ENCALADA<br>CALLE LIMITE 1:  CLUB HÍPICO<br>CALLE LIMITE 2: ECHAURREN<br>DÍAS DE POSTURA: 	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.666938,-33.457385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ROMERO</name>
+        <description><![CDATA[CALLE PRINCIPAL:  ROMERO<br>CALLE LIMITE 1:  GARCIA REYES<br>CALLE LIMITE 2: LIBERTAD<br>DÍAS DE POSTURA:	MARTES - VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.672066,-33.447431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ROBERTO ESPINOZA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  ROBERTO ESPINOZA<br>CALLE LIMITE 1:  VICTORIA<br>CALLE LIMITE 2: PEDRO LAGOS<br>DÍAS DE POSTURA: 	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.65181,-33.465459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ESPERANZA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  ESPERANZA<br>CALLE LIMITE 1:  PORTALES<br>CALLE LIMITE 2: ERASMO ESCALA<br>DÍAS DE POSTURA: 	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.67522,-33.445247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAN AGUSTIN</name>
+        <description><![CDATA[CALLE PRINCIPAL:  SAN AGUSTIN<br>CALLE LIMITE 1:  BASCUÑAN<br>CALLE LIMITE 2: PIZARRO<br>DÍAS DE POSTURA: 	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.671079,-33.474498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GASPAR DE LA BARRERA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  GASPAR DE LA BARRERA<br>CALLE LIMITE 1:  LONGAVI<br>CALLE LIMITE 2: CAMINO MELIPILLA<br>DÍAS DE POSTURA: JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.675349,-33.467464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VENTURA LAVALLE</name>
+        <description><![CDATA[CALLE PRINCIPAL:  VENTURA LAVALLE<br>CALLE LIMITE 1:  PEDRO LEON UGALDE<br>CALLE LIMITE 2: LIRA<br>DÍAS DE POSTURA:	MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.635288,-33.458442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ALDUNATE</name>
+        <description><![CDATA[CALLE PRINCIPAL:  ALDUNATE<br>CALLE LIMITE 1:  COPIAPO<br>CALLE LIMITE 2: COQUIMBO<br>DÍAS DE POSTURA:	JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.6546,-33.457153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

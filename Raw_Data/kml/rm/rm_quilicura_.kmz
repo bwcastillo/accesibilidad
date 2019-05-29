@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Quilicura</name>
+    <description>Quilicura</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>LAS VIOLETAS Nº1</name>
+        <description><![CDATA[CALLE PRINCIPAL:  LAS VIOLETAS<br>CALLE LIMITE 1:  SAN MARTÍN<br>CALLE LIMITE 2: ANTONIO VARAS<br>DÍAS DE POSTURA: 	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.744218,-33.368895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LO MARCOLETA (4)</name>
+        <description><![CDATA[CALLE PRINCIPAL: LO MARCOLETA<br>CALLE LIMITE 1:  SAN ENRIQUE<br>CALLE LIMITE 2: SAN LUIS<br>DÍAS DE POSTURA: 	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.749421,-33.361189,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAN ENRIQUE</name>
+        <description><![CDATA[CALLE PRINCIPAL: SAN ENRIQUE<br>CALLE LIMITE 1:  MATTA<br>CALLE LIMITE 2: SAN LUIS<br>DÍAS DE POSTURA: 	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.742898,-33.363994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LO MARCOLETA (3)</name>
+        <description><![CDATA[CALLE PRINCIPAL: LO MARCOLETA<br>CALLE LIMITE 1:  O'HIGGINS<br>CALLE LIMITE 2: LO OVALLE<br>DÍAS DE POSTURA: 	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.732083,-33.358026,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LO MARCOLETA (2)</name>
+        <description><![CDATA[CALLE PRINCIPAL: LO MARCOLETA<br>CALLE LIMITE 1:  SAN LUIS<br>CALLE LIMITE 2: COLO COLO<br>DÍAS DE POSTURA: MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.758412,-33.362793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA SODIMAC</name>
+        <description><![CDATA[CALLE PRINCIPAL:  SEPTIMO DE LINEA<br>CALLE LIMITE 1:  MANUEL ANTONIO MATTA<br>DÍAS DE POSTURA: 	JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.714155,-33.366772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HERMANOS CARRERA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  LO MARCOLETA<br>CALLE LIMITE 1:  LO CRUZAT<br>DÍAS DE POSTURA:<br><br> SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.72129,-33.357578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BERNARDO O´HIGGINS</name>
+        <description><![CDATA[CALLE PRINCIPAL: OHIGGINS<br>CALLE LIMITE 1:  LETICIA<br>CALLE LIMITE 2: ANA FRANK<br>DÍAS DE POSTURA: 	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.729498,-33.361592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CARAMPANGUE</name>
+        <description><![CDATA[CALLE PRINCIPAL: LO CAMPINO<br>CALLE LIMITE 1:  PASAJE LAS ÁGUILAS<br><br>DÍAS DE POSTURA: 	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.714391,-33.371305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VOLCAN VILLARRICA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  VILLARRICA<br>CALLE LIMITE 1:  MATTA<br>CALLE LIMITE 2: SAN LUIS<br>DÍAS DE POSTURA: 	MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.749003,-33.36239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RAMÓN ROSALES</name>
+        <description><![CDATA[CALLE PRINCIPAL: RAMON ROSALES<br>CALLE LIMITE 1:  LAS TORRES<br>CALLE LIMITE 2: DE LA VEGA<br>DÍAS DE POSTURA: 	MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.721945,-33.370069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KILIMANYARO</name>
+        <description><![CDATA[CALLE PRINCIPAL: LOS ALPES<br>CALLE LIMITE 1:  KILIMANYARO<br>DÍAS DE POSTURA: 	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.744979,-33.351753,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TOCONAO</name>
+        <description><![CDATA[CALLE PRINCIPAL: TOCONAO<br>CALLE LIMITE 1:  VALLE LA LUNA<br>CALLE LIMITE 2: SAN LUIS<br>DÍAS DE POSTURA: 	JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.745226,-33.366548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LO MARCOLETA (1)</name>
+        <description><![CDATA[CALLE PRINCIPAL: LO MARCOLETA<br>CALLE LIMITE 1:  SAN ENRIQUE<br>CALLE LIMITE 2: SAN LUIS<br>DÍAS DE POSTURA:  MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.751739,-33.361682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

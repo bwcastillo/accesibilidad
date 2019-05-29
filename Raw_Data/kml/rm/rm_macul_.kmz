@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Macul</name>
+    <description>Macul</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>LOS 3 ANTONIOS</name>
+        <description><![CDATA[CALLE PRINCIPAL: LOS TRES ANTONIO <br>CALLE LIMITE 1: AVENIDA AGRÍCOLA<br>CALLE LIMITE 2: PASAJE 1<br>DÍAS DE POSTURA:	MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.604796,-33.490211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA CATOLICA</name>
+        <description><![CDATA[CALLE PRINCIPAL: LOS PLÁTANOS<br>CALLE LIMITE 1: RAMÓN CRUZ<br>CALLE LIMITE 2: SIRIA <br>DÍAS DE POSTURA: JUEVES    DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.585281,-33.483536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANTA JULIA</name>
+        <description><![CDATA[CALLE PRINCIPAL: SANTA JULIA    <br>CALLE LIMITE 1: RODRIGO DE ARAYA<br>CALLE LIMITE 2: LOS ESPINOS<br>DÍAS DE POSTURA: SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.592265,-33.475447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JUAN PINTO DURAN</name>
+        <description><![CDATA[CALLE PRINCIPAL: EL LÍBANO <br>CALLE LIMITE 1: AMADOR NEGHME   <br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:  JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.592512,-33.499302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANTA CAROLINA</name>
+        <description><![CDATA[CALLE PRINCIPAL: CASTILLO URIZAR <br>CALLE LIMITE 1: QUILÍN  <br>CALLE LIMITE 2: CASTILLO URIZAR<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.609099,-33.484342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MODELO QUILIN</name>
+        <description><![CDATA[CALLE PRINCIPAL: COSTADO AV QUILIN<br>CALLE LIMITE 1: QUILÍN <br>CALLE LIMITE 2: SAN MATEO  <br>DÍAS DE POSTURA: MARTES    SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.584165,-33.488118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LAS CODORNICES</name>
+        <description><![CDATA[CALLE PRINCIPAL: RECINTO ADAPTADO<br>CALLE LIMITE 1:  MISSOURI<br>CALLE LIMITE 2: LOS MILANOS<br>DÍAS DE POSTURA: JUEVES    DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.59278,-33.505868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA SANTA ELENA</name>
+        <description><![CDATA[CALLE PRINCIPAL: MARATÓN<br>CALLE LIMITE 1: ORTIZ DE ESCARATE  <br>CALLE LIMITE 2:<br>DÍAS DE POSTURA: MARTES    VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.608594,-33.506173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RAMON CRUZ</name>
+        <description><![CDATA[CALLE PRINCIPAL: RAMÓN CRUZ <br>CALLE LIMITE 1: AMANDA LABARCA <br>CALLE LIMITE 2: INTERIOR COMPLEJO DEPORTIVO <br>DÍAS DE POSTURA: MARTES    VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.581686,-33.474516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

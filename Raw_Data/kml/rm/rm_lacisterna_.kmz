@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La Cisterna</name>
+    <description>La Cisterna</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>BALLESTEROS</name>
+        <description><![CDATA[CALLE PRINCIPAL: INES RIVAS<br>CALLE LIMITE 1:  ALCALDE BARRERA<br>CALLE LIMITE 2: MANUEL RENGIFO<br>DÍAS DE POSTURA: JUEVES- DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.680928,-33.537084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BRISAS DEL MAIPO</name>
+        <description><![CDATA[CALLE PRINCIPAL: BRISAS DEL MAIPO<br>CALLE LIMITE 1:  INDUSTRIAS<br>CALLE LIMITE 2: LETRAS<br>DÍAS DE POSTURA: MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.675306,-33.529232,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LO OVALLE</name>
+        <description><![CDATA[CALLE PRINCIPAL: FUENZALIDA URREJOLA<br>CALLE LIMITE 1:  ANGAMOS<br>CALLE LIMITE 2: IQUIQUE<br>DÍAS DE POSTURA: JUEVES-DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.653162,-33.517837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GOYCOLEA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  GOYCOLEA (AV. OSSA)<br>CALLE LIMITE 1:  PERÓ<br>CALLE LIMITE 2: CERRO NEGRO<br>DÍAS DE POSTURA: MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.65372,-33.542521,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LUCERNA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  LUCERNA<br>CALLE LIMITE 1:  COLON<br>CALLE LIMITE 2: SAN LUIS<br>DÍAS DE POSTURA: JUEVES -DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.667356,-33.519832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ARTURO PRAT</name>
+        <description><![CDATA[CALLE PRINCIPAL: NUEVA PONIENTE<br>CALLE LIMITE 1:  V. MACKENNA<br>CALLE LIMITE 2: MANUEL BULNES<br>DÍAS DE POSTURA: MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.653656,-33.547153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAN RAMON</name>
+        <description><![CDATA[CALLE PRINCIPAL:  ALEJANDRO VIAL<br>CALLE LIMITE 1:  URUGUAY<br>CALLE LIMITE 2: LAS BRISAS<br>DÍAS DE POSTURA:  MIÉRCOLES -SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.65475,-33.531468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

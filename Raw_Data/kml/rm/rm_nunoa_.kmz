@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ñuñoa</name>
+    <description>Ñuñoa</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>GUILLERMO MANN</name>
+        <description><![CDATA[CALLE PRINCIPAL: GULLERMO MANN<br>CALLE LIMITE 1: PEDRO DE VALDIVIA<br>CALLE LIMITE 2: MARATON<br>DÍAS DE POSTURA:	MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.610408,-33.47039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MATTA ORIENTE</name>
+        <description><![CDATA[CALLE PRINCIPAL: MATTA ORIENTE<br>CALLE LIMITE 1: IRARRÁZAVAL  <br>CALLE LIMITE 2: LO ENCALADA<br>DÍAS DE POSTURA:  MIÉRCOLES    SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.623829,-33.454217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAN EUGENIO</name>
+        <description><![CDATA[CALLE PRINCIPAL: SAN EUGENIO  <br>CALLE LIMITE 1: CARLOS DITTBORN <br>CALLE LIMITE 2: GUILLERMO MANN<br>DÍAS DE POSTURA: SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.623014,-33.469254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS ALERCES</name>
+        <description><![CDATA[CALLE PRINCIPAL: IGNACIO CARRERA PINTO <br>CALLE LIMITE 1: JUAN MOYA <br>CALLE LIMITE 2: LOS ALERCES<br>DÍAS DE POSTURA: MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.591385,-33.470256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS AROMOS</name>
+        <description><![CDATA[CALLE PRINCIPAL: JUAN GOMEZ MILLA <br>CALLE LIMITE 1: PEDRO DE VALDIVIA<br>CALLE LIMITE 2: LOS TRES ANTONIOS <br>DÍAS DE POSTURA:     SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.604732,-33.461538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ORTUZAR</name>
+        <description><![CDATA[CALLE PRINCIPAL: SIMÓN BOLÍVAR <br>CALLE LIMITE 1: ESTRELLA SOLITARIA <br>CALLE LIMITE 2:<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.584229,-33.448505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EMILIA TELLEZ</name>
+        <description><![CDATA[CALLE PRINCIPAL: EMILIA TELLEZ<br>CALLE LIMITE 1: CONVENTRY  <br>CALLE LIMITE 2: BREMEN<br>DÍAS DE POSTURA:MIÉRCOLES   SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.580024,-33.442078,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DUBLE ALMEYDA</name>
+        <description><![CDATA[CALLE PRINCIPAL: DUBLE ALMEYDA<br>CALLE LIMITE 1: RAMON CRUZ <br>CALLE LIMITE 2: LO PLAZA<br>DÍAS DE POSTURA: VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.582641,-33.458576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MARÍA CELESTE</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. GRECIA<br>CALLE LIMITE 1: AV. VESPUCIO<br>CALLE LIMITE 2: RAMÓN CRUZ<br>DÍAS DE POSTURA:  VIERNES    DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.579766,-33.467786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GRECIA MODELO</name>
+        <description><![CDATA[CALLE PRINCIPAL: NUEVA DOS<br>CALLE LIMITE 1:  MARATHON <br>CALLE LIMITE 2: FCO MENESES <br>DÍAS DE POSTURA: JUEVES    DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.614635,-33.467786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

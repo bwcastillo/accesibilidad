@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Las Condes</name>
+    <description>Las Condes</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>LOS DOMINICOS</name>
+        <description><![CDATA[CALLE PRINCIPAL: LOS DOMINICOS<br>CALLE LIMITE 1:  APOQUINDO<br>CALLE LIMITE 2: CAMINO EL ALBA<br>DÍAS DE POSTURA: SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.544651,-33.407711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PATRICIA</name>
+        <description><![CDATA[CALLE PRINCIPAL: PATRICIA<br>CALLE LIMITE 1:   PAUL HARRIS<br>CALLE LIMITE 2: VILLA LAS FLORES<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.532956,-33.419908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MERCADO CHACAREROS DE MANQUEHUE</name>
+        <description><![CDATA[CALLE PRINCIPAL: MANQUEHUE<br>CALLE LIMITE 1:  ISABEL LA CATÓLICA<br>CALLE LIMITE 2: ISABEL LA CATÓLICA<br>DÍAS DE POSTURA: MIÉRCOLES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.563941,-33.424905,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PRESIDENTE RIESCO</name>
+        <description><![CDATA[CALLE PRINCIPAL: PDTE. RIESCO<br>CALLE LIMITE 1: MANQUEHUE<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA: MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.5704,-33.402176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

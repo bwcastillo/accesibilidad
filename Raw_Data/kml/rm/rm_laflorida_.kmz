@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La Florida</name>
+    <description>La Florida</description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>CHAITEN</name>
+        <description><![CDATA[CALLE PRINCIPAL:	CHAITEN<br>CALLE LIMITE 1:  ROJAS MAGALLANES<br>CALLE LIMITE 2: SOTERO DEL RÍO<br>DÍAS DE POSTURA: JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.599668,-33.537245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA O´HIGGINS (AVENIDA UNO)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AVENIDA 1  <br>CALLE LIMITE 1:  JOSÉ MIGUEL CARRERA  <br>CALLE LIMITE 2: TRINIDAD <br>DÍAS DE POSTURA: MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.607157,-33.548906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA O´HIGGINS (CALLE B)</name>
+        <description><![CDATA[CALLE PRINCIPAL: CALLE B <br>CALLE LIMITE 1: SANTA JULIA <br>CALLE LIMITE 2:  GERÓNIMO DE ALDERETE <br>DÍAS DE POSTURA:  VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.606191,-33.528839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA O´HIGGINS (SANTA AMALIA)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  SANTA AMALIA<br>CALLE LIMITE 1: SANTA RAQUEL<br>CALLE LIMITE 2: MANUTARA  <br>DÍAS DE POSTURA:  SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.598928,-33.542924,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BELLAVISTA (SAN JORGE)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  SAN JORGE <br>CALLE LIMITE 1:  JUAN PABLO II <br>CALLE LIMITE 2: CALLE NUEVA <br>DÍAS DE POSTURA:  VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.572073,-33.558071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UNIÓN (SANTA RAQUEL)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  GRAL. ARRIAGADA<br>CALLE LIMITE 1:  SANTA RAQUEL<br>CALLE LIMITE 2: MANUTARA<br>DÍAS DE POSTURA: JUEVES- DOMINGO<br>N° PUESTOS:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.596321,-33.558366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CALAMA</name>
+        <description><![CDATA[CALLE PRINCIPAL: CALAMA<br>CALLE LIMITE 1:  SOTERO DEL RÍO  <br>CALLE LIMITE 2:  PASAJE SAN MARTÍN <br>DÍAS DE POSTURA:   JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.607715,-33.538166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MANUEL RODRIGUEZ(JOSÉ MIGUEL CARRERA)</name>
+        <description><![CDATA[CALLE PRINCIPAL: J.M CARRERA<br>CALLE LIMITE 1:  VICUÑA MACKENNA<br>CALLE LIMITE 2: BACTERIOLÓGICO<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.584691,-33.550095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS COPIHUES (DEPARTAMENTAL)</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/EQBkkFsuUt2Bynr8D8EEK2sHma7UAC5dFEHvt7EzvkkFuHKqZNX0oe6SPiNsysFwGJSaq60uH0iKR3hxSyOtqrjs7vVKVN9YF9O981H54GqzUPM0lbQV" height="200" width="auto" /><br><br>CALLE PRINCIPAL:    DEPARTAMENTAL<br>CALLE LIMITE 1:  VOLCÁN LLAIMA<br>CALLE LIMITE 2: LOS CEREZOS  <br>DÍAS DE POSTURA: JUEVES DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/EQBkkFsuUt2Bynr8D8EEK2sHma7UAC5dFEHvt7EzvkkFuHKqZNX0oe6SPiNsysFwGJSaq60uH0iKR3hxSyOtqrjs7vVKVN9YF9O981H54GqzUPM0lbQV</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.573769,-33.511182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA O´HIGGINS (LOS ALERCES)</name>
+        <description><![CDATA[CALLE PRINCIPAL: LOS ALERCES <br>CALLE LIMITE 1:  SANTA RAQUEL    <br>CALLE LIMITE 2:  MANUTARA<br>DÍAS DE POSTURA: VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.601363,-33.530377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BELLAVISTA (EL ULMO)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  EL ULMO<br>CALLE LIMITE 1:  LAGO PIRIHUEICO<br>CALLE LIMITE 2: EL BELLOTO<br>DÍAS DE POSTURA: VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.594454,-33.51603,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BELLAVISTA (PUDETO)</name>
+        <description><![CDATA[CALLE PRINCIPAL:    CABILDO<br>CALLE LIMITE 1:   CABILDO <br>CALLE LIMITE 2: SAN CARLOS DE ANCUD      <br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.601154,-33.519568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BELLAVISTA (SAN JORGE 2)</name>
+        <description><![CDATA[CALLE PRINCIPAL: SAN JORGE<br>CALLE LIMITE 1:  AV. VICUÑA MACKENNA<br>CALLE LIMITE 2: CALLE DIEZ<br>DÍAS DE POSTURA: SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.582051,-33.559251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MANUEL RODRIGUEZ (DIEGO PORTALES)</name>
+        <description><![CDATA[CALLE PRINCIPAL: DIEGO PORTALES<br>CALLE LIMITE 1:  VALLE HERMOSO<br>CALLE LIMITE 2: MANUEL BULNES<br>DÍAS DE POSTURA: MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.561184,-33.559635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BELLAVISTA (ENRIQUE OLIVARES)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  ENRIQUE OLIVARES<br>CALLE LIMITE 1:  COLOMBIA<br>CALLE LIMITE 2: PERU<br>DÍAS DE POSTURA: JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.58439,-33.539731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MANUEL RODRIGUEZ (AV. MÉXICO)</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV MEXICO<br>CALLE LIMITE 1:  SAN JOSE DE LA ESTRELLA<br>CALLE LIMITE 2: G. ARRIAGADA<br>DÍAS DE POSTURA: JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.569885,-33.555361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BELLAVISTA (MÉXICO)</name>
+        <description><![CDATA[CALLE PRINCIPAL: SANTA AMALIA  <br>CALLE LIMITE 1: COLOMBIA <br>CALLE LIMITE 2: MÉXICO <br>DÍAS DE POSTURA: MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.577288,-33.543586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BELLAVISTA (SAN JOSÉ DE LA ESTRELLA)</name>
+        <description><![CDATA[CALLE PRINCIPAL:    SAN JOSE DE LA ESTRELLA <br>CALLE LIMITE 1:  AV. MÉXICO<br>CALLE LIMITE 2: AV. LA FLORIDA  <br>DÍAS DE POSTURA: MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.569005,-33.552688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MANUEL RODRIGUEZ (SANTA AMALIA)</name>
+        <description><![CDATA[CALLE PRINCIPAL: SANTA AMALIA <br>CALLE LIMITE 1: PASAJE LOS PINOS <br>CALLE LIMITE 2: 2 PASAJES DESPUÉS <br>DÍAS DE POSTURA: VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.600784,-33.542906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MANUEL RODRIGUEZ (SAN JORGE 2)</name>
+        <description><![CDATA[CALLE PRINCIPAL: SAN JORGE<br>CALLE LIMITE 1:  MÉXICO<br>CALLE LIMITE 2: CALLE NUEVA<br>DÍAS DE POSTURA: MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.565872,-33.557328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS COPIHUES (AV. LA FLORIDA) </name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/EQBkkFsuUt2Bynr8D8EEK2sHma7UAC5dFEHvt7EzvkkFuHKqZNX0oe6SPiNsysFwGJSaq60uH0iKR3hxSyOtqrjs7vVKVN9YF9O981H54GqzUPM0lbQV" height="200" width="auto" /><br><br>CALLE PRINCIPAL: AV. LA FLORIDA <br>CALLE LIMITE 1:  DEPARTAMENTAL  <br>CALLE LIMITE 2: CHACÓN ZAMORA<br>DÍAS DE POSTURA:  SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/EQBkkFsuUt2Bynr8D8EEK2sHma7UAC5dFEHvt7EzvkkFuHKqZNX0oe6SPiNsysFwGJSaq60uH0iKR3hxSyOtqrjs7vVKVN9YF9O981H54GqzUPM0lbQV</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.587668,-33.510547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA O´HIGGINS (ROJAS MAGALLANES)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  ROJAS MAGALLANES<br>CALLE LIMITE 1:  AMERICO VESPUCIO<br>CALLE LIMITE 2: LIRCAY<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.604732,-33.53551,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS COPIHUES (GERONIMO DE ALDERETE)</name>
+        <description><![CDATA[CALLE PRINCIPAL: GERONIMO DE ALDERETE  <br>CALLE LIMITE 1: MÉXICO<br>CALLE LIMITE 2: ALONSO DE ERCILLA<br>DÍAS DE POSTURA: MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.582566,-33.52807,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS COPIHUES (CHACON ZAMORA)</name>
+        <description><![CDATA[CALLE PRINCIPAL:    CHACON ZAMORA<br>CALLE LIMITE 1:  WALKER MARTÍNEZ  <br>CALLE LIMITE 2:  PSJE.LOS LIQUENES<br>DÍAS DE POSTURA:  VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.577524,-33.520217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA UNIÓN (AV. UNO)</name>
+        <description><![CDATA[CALLE PRINCIPAL: AVENIDA UNO<br>CALLE LIMITE 1:  BAHÍA CATALINA<br>CALLE LIMITE 2: PTA ARENAS<br>DÍAS DE POSTURA: VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.612628,-33.547869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA O´HIGGINS (LUIS DE VALDIVIA)</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/EQBkkFsuUt2Bynr8D8EEK2sHma7UAC5dFEHvt7EzvkkFuHKqZNX0oe6SPiNsysFwGJSaq60uH0iKR3hxSyOtqrjs7vVKVN9YF9O981H54GqzUPM0lbQV" height="200" width="auto" /><br><br>CALLE PRINCIPAL:  LUIS DE VALDIVIA<br>CALLE LIMITE 1:  A. VESPUCIO<br>CALLE LIMITE 2: AV.PTA.ARENAS<br>DÍAS DE POSTURA: MIÉRCOLES - VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/EQBkkFsuUt2Bynr8D8EEK2sHma7UAC5dFEHvt7EzvkkFuHKqZNX0oe6SPiNsysFwGJSaq60uH0iKR3hxSyOtqrjs7vVKVN9YF9O981H54GqzUPM0lbQV</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.608906,-33.533212,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA UNIÓN (GENERAL ARRIAGADA)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  GRAL. ARRIAGADA <br>CALLE LIMITE 1: BAHÍA CATALINA<br>CALLE LIMITE 2: JULIO CESAR  <br>DÍAS DE POSTURA: SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.604904,-33.559027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA UNION (JORGE CISTERNA)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  JORGE CISTERNA<br>CALLE LIMITE 1:  SERENA<br>CALLE LIMITE 2: BAHIA CATALINA<br>DÍAS DE POSTURA: MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.611845,-33.55208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UNIÓN (SANTA RAQUEL)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  GRAL. ARRIAGADA<br>CALLE LIMITE 1:  SANTA RAQUEL<br>CALLE LIMITE 2: MANUTARA<br>DÍAS DE POSTURA: JUEVES- DOMINGO]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -70.596321,-33.558366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UNIÓN (SANTA RAQUEL)</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/47Lgq0pmtSIvR7_sjagsSP9jVWeoD1MJcNIMqMNf2QeG67kCtEFbeRaTLfYeCXb2Ct8oYKBmEPxFbZ5Rzmz5ybK0wDi6qI2kuW-M1GtcysZT4tCEJu7_CKxJINdF-3_QMTYgBx3Et1yCpmU" height="200" width="auto" /><br><br>CALLE PRINCIPAL:  GRAL. ARRIAGADA<br>CALLE LIMITE 1:  SANTA RAQUEL<br>CALLE LIMITE 2: MANUTARA<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/47Lgq0pmtSIvR7_sjagsSP9jVWeoD1MJcNIMqMNf2QeG67kCtEFbeRaTLfYeCXb2Ct8oYKBmEPxFbZ5Rzmz5ybK0wDi6qI2kuW-M1GtcysZT4tCEJu7_CKxJINdF-3_QMTYgBx3Et1yCpmU</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.596321,-33.558366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
