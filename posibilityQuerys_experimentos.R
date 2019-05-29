@@ -1,9 +1,9 @@
 library(tidyverse); library(sf); library(RCurl); library(glue)
 
 homedir <- "c:/Users/rdgov/Documents/Magister Desarrollo Urbano/Planificacion Urbana/"
-input <- glue("C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/Shapefiles/feriasChile")
+input <- glue("C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/Shapefiles/feriasrm")
 
-ptos <- read_sf(dsn = input, layer = "feriasChile") %>%
+ptos <- read_sf(dsn = input, layer = "rm") %>%
 st_set_crs(4326)
 View(ptos)
 isocrona()

@@ -231,15 +231,15 @@ writeOGR(sp, dsn="C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/Shapef
 #TEST SANTIAGO: Nuevamente no hice la función, porque me costó mucho entender la forma manual, más la función
 LonLatSanti <- data.frame()
 for( i in seq(KMZsanti)) {
-  tryCatch(tmpsanti<-getKMLcoordinates(paste0("C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/kml/rm/",KMZsanti[i]), ignoreAltitude=T), error = function(x){print(KMZs[i]); tmp <- NA})
+  tryCatch(tmpsanti<-getKMLcoordinates(paste0("C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/kml/rm/",KMZsanti[i]), ignoreAltitude=T), error = function(x){print(KMZs[i]); tmpsanti <- NA})
   tmpsanti <- do.call(rbind, tmpsanti)
   colnames(tmpsanti) <- c("lon", "lat")
   LonLatSanti<-rbind(LonLatSanti, tmpsanti)
   print(tmpsanti)
-  }
+}
+
 spSanti <- SpatialPointsDataFrame(LonLatSanti, LonLatSanti)
 writeOGR(spSanti, dsn="C:/Users/usuario/Documents/Rwork/Accesibilidad/Raw_Data/Shapefiles/feriasRM", layer= "rm", driver="ESRI Shapefile", overwrite_layer = T)
-
 
 #Eliminando dato formato kmz que no tiene una coordenada
 KMZs<-KMZs[(KMZs!="coyhaique_1BmSNET1W2COfTHgKNbAe4935kOM.kmz")]

@@ -1,13 +1,15 @@
 install.packages("sf")
+install.packages("geojsonio")
+install.packages("plotKML")
 library(tidyverse); 
 library("sf"); 
 library(RCurl);
 library(glue)
 library(rvest)
 library(rgdal)
-install.packages("geojsonio")
 library(geojsonio)
-View(coords)
+library(plotKML)
+
 
 isocrona <- function(coords, mode='WALK', viaje.tiempo=10, viaje.velocidad = 1.138, write){
   consulta.url <- paste0('http://146.155.17.41:15080/otp/routers/enero2019/isochroneOld?fromPlace=', 
