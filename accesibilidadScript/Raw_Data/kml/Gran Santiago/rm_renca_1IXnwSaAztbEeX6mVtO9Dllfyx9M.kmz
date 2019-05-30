@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Renca</name>
+    <description>Renca</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>CONDELL</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AV. CONDELL<br>CALLE LIMITE 1:  TOPOCALMA<br>CALLE LIMITE 2: AV. JOSÉ MIGUEL INFANTE<br>DÍAS DE POSTURA:		MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.72644,-33.407926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BULNES</name>
+        <description><![CDATA[CALLE PRINCIPAL:  BARROS ARANA<br>CALLE LIMITE 1:  JOSÉ SARGENTO ALDUNATE<br>CALLE LIMITE 2: ANTONIO MACEO<br>DÍAS DE POSTURA:		MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.6861,-33.414553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHILECTRA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  NICANOR FAJARDO<br>CALLE LIMITE 1:  PUERTO SANTA MARÍA<br>CALLE LIMITE 2: COSTANERA NORTE<br>DÍAS DE POSTURA:		MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.709381,-33.405221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MANUEL RODRIGUEZ</name>
+        <description><![CDATA[CALLE PRINCIPAL: MANUEL RODRÍGUEZ<br>CALLE LIMITE 1:  RÍO HUASCO<br>CALLE LIMITE 2: CALLE DEL CERRO<br>DÍAS DE POSTURA: 		MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.723393,-33.395431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VICUNA MACKENNA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  VICUÑA MACKENNA<br>CALLE LIMITE 1:  JOSÉ MANUEL INFANTE<br>CALLE LIMITE 2: MIRAFLORES<br>DÍAS DE POSTURA:		JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.745044,-33.404648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS ACACIOS</name>
+        <description><![CDATA[CALLE PRINCIPAL:  LOS ACACIOS<br>CALLE LIMITE 1:  LOS AROMOS<br>CALLE LIMITE 2: PASAJE RUBÍ<br>DÍAS DE POSTURA: 		JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.691711,-33.405588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COLO COLO</name>
+        <description><![CDATA[CALLE PRINCIPAL:  COLO- COLO<br>CALLE LIMITE 1:  GENERAL FREIRE<br>CALLE LIMITE 2: ARTURO PRAT<br>DÍAS DE POSTURA: JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.725421,-33.403367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOURDES</name>
+        <description><![CDATA[CALLE PRINCIPAL: DIEGO PORTALES<br>CALLE LIMITE 1:  MONTT VARAS<br>CALLE LIMITE 2: J. CARRERA PINTO<br>DÍAS DE POSTURA:		MARTES - VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.711398,-33.401486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HUAMACHUCO</name>
+        <description><![CDATA[CALLE PRINCIPAL: LOS CLARINES<br>CALLE LIMITE 1:  LAS MARGARITAS<br>CALLE LIMITE 2: AV. DORSAL<br>DÍAS DE POSTURA:		MARTES - VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.700433,-33.399292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HUAMACHUCO I</name>
+        <description><![CDATA[CALLE PRINCIPAL:  LAS MARGARITAS<br>CALLE LIMITE 1:  PUERTO MONTT<br>CALLE LIMITE 2: PJE LIMA<br>DÍAS DE POSTURA:		MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.698009,-33.394553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DORSAL</name>
+        <description><![CDATA[CALLE PRINCIPAL:  JOSÉ MANUEL BALMACEDA<br>CALLE LIMITE 1:  CAUPOLICÁN<br>CALLE LIMITE 2: PASAJE CHERCÁN<br>DÍAS DE POSTURA:		MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.700873,-33.403295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PELLUHUE</name>
+        <description><![CDATA[CALLE PRINCIPAL:  PELLUHUE<br>CALLE LIMITE 1:  J.M.INFANTE<br>CALLE LIMITE 2: TOPOCALMA<br>DÍAS DE POSTURA:		MARTES - VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.734401,-33.40892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

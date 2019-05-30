@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Chillán</name>
+    <description>Chillán</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Feria Libre Los Puelches </name>
+        <description><![CDATA[CALLE PRINCIPAL:Avda. Los Puelches<br>CALLE LIMITE 1: Libertad Oriente<br>CALLE LIMITE 2:Badejo entre las dos calles<br>DÍAS DE POSTURA:	Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.084732,-36.615975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Persa San Rafael Chillan</name>
+        <description><![CDATA[CALLE PRINCIPAL:Avda Los Puelches<br>CALLE LIMITE 1: Alonso de Ercilla<br>CALLE LIMITE 2:Pasaje Sin Nombre<br>DÍAS DE POSTURA:	Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.087393,-36.624793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Chillan</name>
+        <description><![CDATA[CALLE PRINCIPAL:Prat<br>CALLE LIMITE 1: Isabel Riquelme<br>CALLE LIMITE 2:Maipon<br>DÍAS DE POSTURA:	Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.101254,-36.612531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria itenerante</name>
+        <description><![CDATA[CALLE PRINCIPAL:Sin puntos fijos<br>CALLE LIMITE 1: Feria Itinerante en 21 comunas<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	Lun-Mar-Mier-Jue-Vier-Sab-Dom]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.106018,-36.629167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Padre Hurtado</name>
+    <description>Padre Hurtado</description>
+    <Style id="poly-FF0000-3000-38-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>260000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FF0000-3000-38-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>260000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FF0000-3000-38-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF0000-3000-38-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF0000-3000-38-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Padre Hurtado</name>
+        <styleUrl>#poly-FF0000-3000-38-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -70.825424,-33.531092,0
+                -70.855637,-33.56457,0
+                -70.853577,-33.591743,0
+                -70.831604,-33.609187,0
+                -70.783539,-33.581733,0
+                -70.740623,-33.551696,0
+                -70.749893,-33.549979,0
+                -70.762253,-33.533096,0
+                -70.776672,-33.525082,0
+                -70.804138,-33.515923,0
+                -70.825424,-33.531092,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

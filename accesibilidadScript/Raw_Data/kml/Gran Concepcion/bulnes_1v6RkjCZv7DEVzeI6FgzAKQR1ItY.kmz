@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bulnes</name>
+    <description>Bulnes</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Feria Libre de Bulnes 1</name>
+        <description><![CDATA[CALLE PRINCIPAL:Sargento Aldea<br>CALLE LIMITE 1: Ohiggins<br>CALLE LIMITE 2:Recinto Estacion<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.30463,-36.743699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre de Bulnes 2</name>
+        <description><![CDATA[CALLE PRINCIPAL:Anibal Pinto<br>CALLE LIMITE 1: Carlos Palacios<br>CALLE LIMITE 2:Arturo Prat<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.300081,-36.740879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre de Bulnes 3</name>
+        <description><![CDATA[CALLE PRINCIPAL:Eleuterio Ramirez<br>CALLE LIMITE 1: Blanco Encalada<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -72.299395,-36.746175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

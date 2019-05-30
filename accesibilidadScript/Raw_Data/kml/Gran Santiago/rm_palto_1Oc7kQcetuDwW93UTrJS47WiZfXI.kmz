@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Puente Alto</name>
+    <description>Puente Alto</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>LOS NOGALES (3)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  NEMECIO VICUÑA<br>CALLE LIMITE 1:  LAS NIEVES<br>CALLE LIMITE 2: SAN HUGO<br>DÍAS DE POSTURA: JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.573468,-33.592494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LICANRAY (1)</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV EL PERAL<br>CALLE LIMITE 1:  MEXICO<br>CALLE LIMITE 2: AV LAS NIEVES<br>DÍAS DE POSTURA: MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.563641,-33.572348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL ESFUERZO (1)</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. TOMÉ<br>CALLE LIMITE 1:  SAN CARLOS<br>CALLE LIMITE 2: CALETA BRAVA<br>DÍAS DE POSTURA: MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.558813,-33.598142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL ESFUERZO (6)</name>
+        <description><![CDATA[CALLE PRINCIPAL: SAN CARLOS<br>CALLE LIMITE 1:  NONATO COO<br>CALLE LIMITE 2: CERRITO ARRIBA<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.564467,-33.596953,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CASAS VIEJAS (1)</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. LAJA<br>CALLE LIMITE 1:  CIRCUNVALACIÓN<br>CALLE LIMITE 2: MARCO PÉREZ<br>DÍAS DE POSTURA: MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.565754,-33.616156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL ESFUERZO (3)</name>
+        <description><![CDATA[CALLE PRINCIPAL: SAN FRANCISCO<br>CALLE LIMITE 1:  LUIS MATTE<br>CALLE LIMITE 2: MAESTRO PALOMO<br>DÍAS DE POSTURA: JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.565915,-33.583878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FERIA GRANDE (5)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  SANTA ELENA<br>CALLE LIMITE 1:  EYZAGUIRRE<br>CALLE LIMITE 2: IRARRÁZAVAL<br>DÍAS DE POSTURA: SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.573125,-33.609544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FERIA GRANDE (6)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  ARTURO PRAT<br>CALLE LIMITE 1:  URUGUAY<br>CALLE LIMITE 2: EJERCITO LIBERTADOR<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.584433,-33.615102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FERIA GRANDE (4)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  LUIS MATTE<br>CALLE LIMITE 1:  5 CENTENARIO<br>CALLE LIMITE 2: CA LUCO<br>DÍAS DE POSTURA: VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.578672,-33.585997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MARTA BRUNET (1)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  NOCEDAL<br>CALLE LIMITE 1:  SAN PEDRO<br>CALLE LIMITE 2: SÓCRATES<br>DÍAS DE POSTURA: VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.593939,-33.62534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BAJOS DE MENA (2)</name>
+        <description><![CDATA[CALLE PRINCIPAL: SARGENTO MENADIER<br>CALLE LIMITE 1:  JUANITA<br>CALLE LIMITE 2: OSA MAYOR<br>DÍAS DE POSTURA: MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.608358,-33.620534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BAJOS DE MENA (3)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  QUITALMAHUE<br>CALLE LIMITE 1:  CURACO DE VÉLEZ<br>CALLE LIMITE 2: CALLE DE SERVICIO<br>DÍAS DE POSTURA: JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.624516,-33.627654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHACAREROS (2)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  EL PERAL<br>CALLE LIMITE 1:  NONATO COO<br>CALLE LIMITE 2: EL HIDALGO<br>DÍAS DE POSTURA: MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.57379,-33.571507,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LICANRAY (2)</name>
+        <description><![CDATA[CALLE PRINCIPAL: EL PEÑON<br>CALLE LIMITE 1:  VALLE CENTRAL<br>CALLE LIMITE 2:  NONATO COO<br>DÍAS DE POSTURA: MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.572867,-33.580214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LICANRAY (6)</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS NIEVES<br>CALLE LIMITE 1:  EL PEÑÓN<br>CALLE LIMITE 2: LUIS MATTE<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.558126,-33.582502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LUIS MATTE (2)</name>
+        <description><![CDATA[CALLE PRINCIPAL: LUIS MATTE<br>CALLE LIMITE 1:  PALO DE ROSA<br>CALLE LIMITE 2: OSA MAYOR<br>DÍAS DE POSTURA: SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.602586,-33.588508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LUIS MATTE (3)</name>
+        <description><![CDATA[CALLE PRINCIPAL: EJÉRCITO LIBERTADOR<br>CALLE LIMITE 1:  LUIS MATTE<br>CALLE LIMITE 2: PADRE HURTADO<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.59705,-33.586613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL ESFUERZO (4)</name>
+        <description><![CDATA[CALLE PRINCIPAL: LA BALANZA <br>CALLE LIMITE 1:   SAN CARLOS<br>CALLE LIMITE 2: FUNDADOR DOMINGO TOCORNAL<br>DÍAS DE POSTURA: VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.567836,-33.5961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL ESFUERZO (5)</name>
+        <description><![CDATA[CALLE PRINCIPAL: MIGUEL ÁNGEL<br>CALLE LIMITE 1:  JUAN DE DIOS MALEBRAN<br>CALLE LIMITE 2: RIMBAUD<br>DÍAS DE POSTURA: SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.590565,-33.582663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS NOGALES (4)</name>
+        <description><![CDATA[CALLE PRINCIPAL: CRETA<br>CALLE LIMITE 1: SAGASCA<br>CALLE LIMITE 2: GABRIELA<br>DÍAS DE POSTURA: VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.601932,-33.584191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CASAS VIEJAS (5)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AV. DIEGO PORTALES<br>CALLE LIMITE 1:  AV. LA FLORIDA<br>CALLE LIMITE 2: LAS TORRES<br>DÍAS DE POSTURA: SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.556345,-33.559063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHACAREROS (4)</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. LOS TOROS<br>CALLE LIMITE 1:  NONATO COO<br>CALLE LIMITE 2: MÉXICO<br>DÍAS DE POSTURA: SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.570818,-33.567949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CASAS VIEJAS (2)</name>
+        <description><![CDATA[CALLE PRINCIPAL: CALLE EL VOLCÁN, POB. VISTA HERMOSA<br>CALLE LIMITE 1:  CORDILLERA<br>CALLE LIMITE 2: VALLE HERMOSO<br>DÍAS DE POSTURA: MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.533857,-33.610348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS NOGALES (2)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  ULISES<br>CALLE LIMITE 1:  AV. GABRIELA PONIENTE<br>CALLE LIMITE 2: VENUS<br>DÍAS DE POSTURA: MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.587587,-33.578944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHACAREROS (5)</name>
+        <description><![CDATA[CALLE PRINCIPAL: LOS TOROS<br>CALLE LIMITE 1:  VICUÑA<br>CALLE LIMITE 2: NEMESIO VICUÑA<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.580957,-33.569004,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS NOGALES (5)</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS NIEVES ORIENTE<br>CALLE LIMITE 1:  SAN JUAN<br>CALLE LIMITE 2: LOS MAILLINES<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.57423,-33.593799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MARTA BRUNET (2)</name>
+        <description><![CDATA[CALLE PRINCIPAL: RELOJ DE SOL<br>CALLE LIMITE 1:  QUINTALMAHUE<br>CALLE LIMITE 2:  AGUAS ABAJO<br>DÍAS DE POSTURA:  SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.622274,-33.631808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CASAS VIEJAS (4)</name>
+        <description><![CDATA[CALLE PRINCIPAL: URUGUAY<br>CALLE LIMITE 1:  SAN PEDRO<br>CALLE LIMITE 2: CIRCUNVALACIÓN<br>DÍAS DE POSTURA: VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.581193,-33.618604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LICANRAY (4)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  PUNTA BLANCA<br>CALLE LIMITE 1:  RAMÓN VENEGAS<br>CALLE LIMITE 2: EL BARQUITO<br>DÍAS DE POSTURA: 	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.554092,-33.583387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CASAS VIEJAS (6)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  TOMÉ<br>CALLE LIMITE 1:  LOS LOROS<br>CALLE LIMITE 2: CIRCUNVALACIÓN<br>DÍAS DE POSTURA: 	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.55509,-33.613681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LICANRAY (3)</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. MEXICO<br>CALLE LIMITE 1:  LOS TOROS<br>CALLE LIMITE 2: BAHIA INGLESA<br>DÍAS DE POSTURA: 	JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.567181,-33.56516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FERIA GRANDE (3)</name>
+        <description><![CDATA[CALLE PRINCIPAL: EJERCITO LIBERTADOR<br>CALLE LIMITE 1:  ARTURO PRAT<br>CALLE LIMITE 2: REAL AUDIENCIA<br>DÍAS DE POSTURA: 	JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.59057,-33.615316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHACAREROS (3)</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS NIEVES ORIENTE<br>CALLE LIMITE 1:  GABRIELA ORIENTE<br>CALLE LIMITE 2: EL PEÑÓN<br>DÍAS DE POSTURA: 	JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.559306,-33.577764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FERIA GRANDE (2)</name>
+        <description><![CDATA[CALLE PRINCIPAL: EDUARDO CORDERO<br>CALLE LIMITE 1:   STA ELENA<br>CALLE LIMITE 2: IGNACIO DOMEYCO<br>DÍAS DE POSTURA: 	MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.570078,-33.605219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS NOGALES (1)</name>
+        <description><![CDATA[CALLE PRINCIPAL: MIGUEL ANGEL<br>CALLE LIMITE 1:  EJERCITO LIBERTADOR<br>CALLE LIMITE 2: CRETA<br>DÍAS DE POSTURA: 	MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.599421,-33.583994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FERIA GRANDE (1)</name>
+        <description><![CDATA[CALLE PRINCIPAL: ALCALDE MALEBRAN<br>CALLE LIMITE 1:  ALVEAR<br>CALLE LIMITE 2: TTE BELLO<br>DÍAS DE POSTURA: 	MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.586922,-33.608365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHACAREROS (1)</name>
+        <description><![CDATA[CALLE PRINCIPAL: ANGEL PIMENTEL<br>CALLE LIMITE 1:  CHAYAVIENTOS<br>CALLE LIMITE 2: EL QUILLAY<br>DÍAS DE POSTURA: 	MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.570319,-33.588722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LUIS MATTE (1)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  RIO QUELTEHUE<br>CALLE LIMITE 1:  RIO YESO<br>CALLE LIMITE 2: RIO VOLCAN<br>DÍAS DE POSTURA: 	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.619034,-33.614771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CASAS VIEJAS (3)</name>
+        <description><![CDATA[CALLE PRINCIPAL:  PIE ANDINO<br>CALLE LIMITE 1:  EYZAGUIRRE<br>CALLE LIMITE 2: HACIA EL SUR<br>DÍAS DE POSTURA: 	JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.549672,-33.61151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MARTA BRUNET (3)</name>
+        <description><![CDATA[CALLE PRINCIPAL: RIO COLORADO<br>CALLE LIMITE 1:  ESTERO LEONERO<br>CALLE LIMITE 2: ESTERO PANGUE<br>DÍAS DE POSTURA: 	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.624441,-33.6152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

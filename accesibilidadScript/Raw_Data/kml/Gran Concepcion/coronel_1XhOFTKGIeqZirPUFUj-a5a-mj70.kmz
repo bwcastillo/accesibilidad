@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Coronel</name>
+    <description>Coronel</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Feria Sector Yobilo</name>
+        <description><![CDATA[CALLE PRINCIPAL:Yobilo<br>CALLE LIMITE 1: Leoncio Medel<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	Domingo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.153024,-37.010298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Coronel Pobl. Laurie</name>
+        <description><![CDATA[CALLE PRINCIPAL:Lota<br>CALLE LIMITE 1: Sotomayor<br>CALLE LIMITE 2:Galvarino Rivero<br>DÍAS DE POSTURA:	Viernes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.139505,-37.033957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Camilo Olavarria</name>
+        <description><![CDATA[CALLE PRINCIPAL:Manuel Montt (costado)<br>CALLE LIMITE 1: Las Toscas<br>CALLE LIMITE 2:Los Pirquenes<br>DÍAS DE POSTURA:	Mar-Jue]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.161478,-36.993778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria L. Lagunillas</name>
+        <description><![CDATA[CALLE PRINCIPAL: El Escuadron<br>CALLE LIMITE 1: Los Abetos<br>CALLE LIMITE 2:Los Guindos<br>DÍAS DE POSTURA:	Jueves]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.156371,-36.985517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Lo Rojas</name>
+        <description><![CDATA[CALLE PRINCIPAL:Pedro A. Cerda<br>CALLE LIMITE 1: Eusebio Lillo<br>CALLE LIMITE 2:Av. Sur<br>DÍAS DE POSTURA:	Sábado]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.160963,-37.022428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

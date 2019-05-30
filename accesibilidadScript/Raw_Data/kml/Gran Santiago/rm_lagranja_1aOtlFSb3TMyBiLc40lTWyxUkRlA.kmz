@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La Granja</name>
+    <description>La Granja</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>EX INDUSTRIALES</name>
+        <description><![CDATA[CALLE PRINCIPAL: CALLE O<br>CALLE LIMITE 1:  CENTRAL<br>CALLE LIMITE 2: AV. LO OVALLE<br>DÍAS DE POSTURA: <br><br>   JUEVES- <br>   DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.619991,-33.515521,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TOME</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AV. TOMÉ<br>CALLE LIMITE 1:  AV. SANTA ROSA<br>CALLE LIMITE 2: LOS VILOS<br>DÍAS DE POSTURA: MARTES - VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.632112,-33.532899,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MANCO CAPAC</name>
+        <description><![CDATA[CALLE PRINCIPAL: MANCO CAPAC<br>CALLE LIMITE 1:  CORONEL<br>CALLE LIMITE 2: PUNTA ARENAS<br>DÍAS DE POSTURA: JUEVES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.615622,-33.543586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OSORNO</name>
+        <description><![CDATA[CALLE PRINCIPAL: OSORNO<br>CALLE LIMITE 1:  CORONEL<br>CALLE LIMITE 2: AMÉRICO VESPUCIO<br>DÍAS DE POSTURA: <br><br>   MARTES   VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.613809,-33.538918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANTA CLAUDIA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  VICUÑA MACKENNA<br>CALLE LIMITE 1:  EDUARDO BELLO<br>CALLE LIMITE 2: SOFÍA EINSTMAN<br>DÍAS DE POSTURA: MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.629859,-33.547216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA COPA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  MAÑIO<br>CALLE LIMITE 1: YUNGAY<br>CALLE LIMITE 2:  PADRE ESTEBAN<br>DÍAS DE POSTURA: MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.621018,-33.523374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TACORA</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. SUR<br>CALLE LIMITE 1:  LOS VILOS<br>CALLE LIMITE 2: EL TABO<br>DÍAS DE POSTURA: MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.627542,-33.539682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MALAQUIAS CONCHA</name>
+        <description><![CDATA[CALLE PRINCIPAL: COMBARBALA<br>CALLE LIMITE 1:   CORONEL<br>CALLE LIMITE 2:  QUILPUÉ<br>DÍAS DE POSTURA:  MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.619581,-33.52934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CORONEL</name>
+        <description><![CDATA[CALLE PRINCIPAL: CORONEL<br>CALLE LIMITE 1:  TOMÉ<br>CALLE LIMITE 2: VALDIVIA<br>DÍAS DE POSTURA: <br><br>   JUEVES -   DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.616405,-33.532738,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MANIO</name>
+        <description><![CDATA[CALLE PRINCIPAL:  SEBASTOPOL<br>CALLE LIMITE 1:  AV. EL PARQUE<br>CALLE LIMITE 2:  27 ORIENTE<br>DÍAS DE POSTURA:  <br><br>   MIÉRCOLES    SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.616255,-33.514984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POETA NERUDA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  CANTO GENERAL<br>CALLE LIMITE 1:  SANTA ROSA<br>CALLE LIMITE 2: JOAQUIN EDWARDS<br>DÍAS DE POSTURA: JUEVES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.628057,-33.551034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

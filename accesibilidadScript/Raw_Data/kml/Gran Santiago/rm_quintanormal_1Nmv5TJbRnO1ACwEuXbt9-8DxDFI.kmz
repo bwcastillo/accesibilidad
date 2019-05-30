@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Quinta Normal</name>
+    <description>Quinta Normal</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>JOSE BEZA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  JOSÉ BESA<br>CALLE LIMITE 1:  SAN PABLO<br>CALLE LIMITE 2: VICUÑA ROSA<br>DÍAS DE POSTURA: 	MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.705497,-33.438514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VICTORINO LAYNEZ</name>
+        <description><![CDATA[CALLE PRINCIPAL:  VICTORINO LAYNEZ<br>CALLE LIMITE 1:  NUEVA IMPERIAL<br>CALLE LIMITE 2: SANTO DOMINGO<br>DÍAS DE POSTURA: 	MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.697912,-33.442892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EDISON</name>
+        <description><![CDATA[CALLE PRINCIPAL: EDISON<br>CALLE LIMITE 1: RADAL<br>CALLE LIMITE 2: GASPAR DE ORIETA<br>DÍAS DE POSTURA: 		SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.702128,-33.438622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS SAUCES</name>
+        <description><![CDATA[CALLE PRINCIPAL: LOS SAUCES<br>CALLE LIMITE 1:  SAMUEL IZQUIERDO<br>CALLE LIMITE 2: LO ESPINOSA<br>DÍAS DE POSTURA:		MARTES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.708566,-33.41355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ALBERDI</name>
+        <description><![CDATA[CALLE PRINCIPAL: ALBERDI<br>CALLE LIMITE 1:  SALVADOR GUTIÉRREZ<br>CALLE LIMITE 2: HOVENSON<br>DÍAS DE POSTURA:		JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.711033,-33.42238,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EX-LA PLATA</name>
+        <description><![CDATA[CALLE PRINCIPAL: AUGUSTO MATTE<br>CALLE LIMITE 1:  CARRASCAL<br>CALLE LIMITE 2:MAPOCHO<br>DÍAS DE POSTURA: 		DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.691957,-33.425711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JOSE TOBIAS</name>
+        <description><![CDATA[CALLE PRINCIPAL: JOSE TOBIAS<br>CALLE LIMITE 1:  OTTO LENGHI<br>CALLE LIMITE 2: LOS SAUCES<br>DÍAS DE POSTURA: 		JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.699135,-33.416434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ALSINO</name>
+        <description><![CDATA[CALLE PRINCIPAL:  ALSINO<br>CALLE LIMITE 1:  RADAL<br>CALLE LIMITE 2: BOMBERO ROBERTS<br>DÍAS DE POSTURA: 		SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.705798,-33.425854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MARCELO FITTE</name>
+        <description><![CDATA[CALLE PRINCIPAL: MARCELO FITTE<br>CALLE LIMITE 1:  MIGUEL DE ATERO<br>CALLE LIMITE 2: VÍCTOR HUGO<br>DÍAS DE POSTURA: 		DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.697343,-33.417374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TRANSITO</name>
+        <description><![CDATA[CALLE PRINCIPAL:CALLE TRANSITO<br>CALLE LIMITE 1:  NEPTUNO<br>CALLE LIMITE 2: TRANSITO<br>DÍAS DE POSTURA: 		VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.719681,-33.433483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MERCURIO</name>
+        <description><![CDATA[CALLE PRINCIPAL: MERCURIO<br>CALLE LIMITE 1:  CAMINO DE LOYOLA<br>CALLE LIMITE 2: J.J.PÉREZ<br>DÍAS DE POSTURA: 		MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.716805,-33.436106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EDUARDO CHARME </name>
+        <description><![CDATA[CALLE PRINCIPAL:  EDUARDO CHARME<br>CALLE LIMITE 1:  J.PREZ<br>CALLE LIMITE 2: VICUÑA ROSAS<br>DÍAS DE POSTURA: 		VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.701238,-33.433966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FRANCISCO JAVIER</name>
+        <description><![CDATA[CALLE PRINCIPAL: FRANCISCO JAVIER<br>CALLE LIMITE 1:  NUEVA IMPERIAL<br>CALLE LIMITE 2: PORTO SEGURO<br>DÍAS DE POSTURA: 		MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.693417,-33.446429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAN GUMERCINDO</name>
+        <description><![CDATA[CALLE PRINCIPAL: SAN GUMERCINDO<br>CALLE LIMITE 1:  NUEVA IMPERIAL<br>CALLE LIMITE 2: PORTO SEGURO<br>DÍAS DE POSTURA: 		VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.694747,-33.446661,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOPE DE ULLOA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  LOPE DE ULLOA<br>CALLE LIMITE 1:  MAPOCHO<br>CALLE LIMITE 2: DOCTOR SIERRA<br>DÍAS DE POSTURA: 		JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.689104,-33.429239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ALBERDI</name>
+        <description><![CDATA[CALLE PRINCIPAL:  ALBERDI<br>CALLE LIMITE 1:  MAPOCHO<br>CALLE LIMITE 2: J.J.PÉREZ<br>DÍAS DE POSTURA: 		MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.713115,-33.429633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

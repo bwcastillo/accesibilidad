@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Valdivia</name>
+    <description>Valdivia</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Feria Libre Valdivia 1</name>
+        <description><![CDATA[CALLE PRINCIPAL: Sector Las Animas<br>CALLE LIMITE 1:  Población Norte Sur<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	Lunes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.223534,-39.809987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Valdivia 2</name>
+        <description><![CDATA[CALLE PRINCIPAL: Baquedano<br>CALLE LIMITE 1:  Perez Rosales<br>CALLE LIMITE 2:Phillip<br>DÍAS DE POSTURA:	 Martes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.247309,-39.823073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Valdivia 3</name>
+        <description><![CDATA[CALLE PRINCIPAL: Andres Bello<br>CALLE LIMITE 1:  Ruben Dario<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	 Miércoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.214607,-39.831922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Valdivia 4</name>
+        <description><![CDATA[CALLE PRINCIPAL: San Miguel<br>CALLE LIMITE 1:  Rene Schneider<br>CALLE LIMITE 2: Nueva San Luis<br>DÍAS DE POSTURA:	 Viernes]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.218126,-39.845976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Valdivia 5</name>
+        <description><![CDATA[CALLE PRINCIPAL: Nueva San Luis<br>CALLE LIMITE 1:  Av. Francia<br>CALLE LIMITE 2: Rene Schneider<br>DÍAS DE POSTURA:	 Sábado]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.221238,-39.839156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Libre Valdivia 6</name>
+        <description><![CDATA[CALLE PRINCIPAL: Diego de Almagro<br>CALLE LIMITE 1:  Lastarria<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	 Domingo]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -73.214929,-39.827737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Peñalolen</name>
+    <description>Peñalolen</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>DEPARTAMENTAL</name>
+        <description><![CDATA[CALLE PRINCIPAL: DEPARTAMENTAL<br>CALLE LIMITE 1: LOS CLARINES	<br>CALLE LIMITE 2: LOS CEREZOS<br>DÍAS DE POSTURA:	JUEVES 	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.575593,-33.508659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS PRESIDENTES</name>
+        <description><![CDATA[CALLE PRINCIPAL: CARACAS<br>CALLE LIMITE 1: LOS PRESIDENTES<br>CALLE LIMITE 2: BOLÍVAR<br>DÍAS DE POSTURA:	MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.566537,-33.480637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ICTINOS</name>
+        <description><![CDATA[CALLE PRINCIPAL: ICTINOS<br>CALLE LIMITE 1: GRECIA	<br>CALLE LIMITE 2: LOS ORIENTALES<br>DÍAS DE POSTURA:	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.561924,-33.469307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JUAN PABLO II</name>
+        <description><![CDATA[CALLE PRINCIPAL: EL VALLE<br>CALLE LIMITE 1: FRONTERA<br>CALLE LIMITE 2: (UBICADA EN COMPLEJO RECREACIONAL)<br>DÍAS DE POSTURA:	MARTES  	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.572846,-33.476252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JOSE ARRIETA</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/v31w7kFm2NUIKR_JRZQKtSMpQAXx8t0jzUKTvOygMmYXUEdsW5vKRHD8xJrMoDc4_VbbgOuIAryortqfQGJu8RrR_UaN4ZVCo2sBep03VDk" height="200" width="auto" /><br><br>CALLE PRINCIPAL: JOSÉ ARRIETA<br>CALLE LIMITE 1: DIEGO ROJAS<br>CALLE LIMITE 2: TOBALABA<br>DÍAS DE POSTURA:	JUEVES  	DOMINGO<br>PRODUCTOS: VERDURAS, FRUTAS, ARTICULOS DE ASEO Y DEL HOGAR, PERSA, PRODUCTOS CON TRAZABILIDAD E INOCUIDAD]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/v31w7kFm2NUIKR_JRZQKtSMpQAXx8t0jzUKTvOygMmYXUEdsW5vKRHD8xJrMoDc4_VbbgOuIAryortqfQGJu8RrR_UaN4ZVCo2sBep03VDk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.555208,-33.462648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL PARRAL</name>
+        <description><![CDATA[CALLE PRINCIPAL: EL VALLE<br>CALLE LIMITE 1:  AFLUENTE<br>CALLE LIMITE 2: PJE.EL LITORAL<br>DÍAS DE POSTURA:		JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.56879,-33.477165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS MOLINEROS</name>
+        <description><![CDATA[CALLE PRINCIPAL: MOLINEROS<br>CALLE LIMITE 1: GRECIA<br>CALLE LIMITE 2: LAURA RODRÍGUEZ	<br>DÍAS DE POSTURA:	MIÉRCOLES  	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.567997,-33.468734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LAS TORRES</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS TORRES<br>CALLE LIMITE 1: CALLE 465<br>CALLE LIMITE 2: LOS CEREZOS<br>DÍAS DE POSTURA:	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.571065,-33.50331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAN LUIS DE MACUL</name>
+        <description><![CDATA[CALLE PRINCIPAL: TUCAPEL<br>CALLE LIMITE 1: LOS TALLADORES<br>CALLE LIMITE 2: LOS ARRIEROS<br>DÍAS DE POSTURA: MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.567358,-33.508176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LAS PERDICES</name>
+        <description><![CDATA[CALLE PRINCIPAL:LAS PÉRDICES<br>CALLE LIMITE 1:  BAQUEDANO<br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:	MARTES    SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.542591,-33.495472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PALENA</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. CONSISTORIAL<br>CALLE LIMITE 1: TAGUA TAGUA	<br>CALLE LIMITE 2: LAS PARCELAS<br>DÍAS DE POSTURA:	 MIÉRCOLES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.541904,-33.472887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS MARES</name>
+        <description><![CDATA[CALLE PRINCIPAL: HORACIO TORO<br>CALLE LIMITE 1: AV. SAN LUIS<br>CALLE LIMITE 2: LAS BRISAS<br>DÍAS DE POSTURA:	MARTES  	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.585163,-33.504866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

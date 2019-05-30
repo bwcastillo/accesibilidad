@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>San Ramon</name>
+    <description>San Ramon</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>LA BANDERA</name>
+        <description><![CDATA[CALLE PRINCIPAL: LA BANDERA<br>CALLE LIMITE 1: <br>CALLE LIMITE 2:<br>DÍAS DE POSTURA:<br> VICUÑA MACKENNA	ESPERANZA	JUEVES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.645845,-33.548262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BOLIVIA</name>
+        <description><![CDATA[CALLE PRINCIPAL: BOLIVIA<br>CALLE LIMITE 1:  PEDRO AGUIRRE CERDA	<br>CALLE LIMITE 2: CARLOS DÁVILA<br>DÍAS DE POSTURA: MIÉRCOLES   SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.640566,-33.539427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MAYO</name>
+        <description><![CDATA[CALLE PRINCIPAL: MAYO<br>CALLE LIMITE 1:  RIVADAVIA<br>CALLE LIMITE 2: ALVEAR<br>DÍAS DE POSTURA: MIÉRCOLES  	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.64136,-33.521022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA BLANCA</name>
+        <description><![CDATA[CALLE PRINCIPAL: ALVEAR<br>CALLE LIMITE 1:  AV. FERNÁNDEZ ALBANO<br>CALLE LIMITE 2: SANTA ANA	<br>DÍAS DE POSTURA:  JUEVES  	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.643828,-33.525029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SARGENTO CANDELARIA</name>
+        <description><![CDATA[CALLE PRINCIPAL: SARGENTO CANDELARIA	<br>CALLE LIMITE 1: JUAN ANTONIO RÍOS<br>CALLE LIMITE 2: PEDRO AGUIRRE CERDA<br>DÍAS DE POSTURA:	MIÉRCOLES  	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.640116,-33.555326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FERNANDEZ ALBANO</name>
+        <description><![CDATA[CALLE PRINCIPAL: ELÍAS FERNANDEZ<br>CALLE LIMITE 1: PARAGUAY<br>CALLE LIMITE 2: BOLIVIA<br>DÍAS DE POSTURA: JUEVES  	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.64827,-33.535958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ALPATACAL</name>
+        <description><![CDATA[CALLE PRINCIPAL: ALPATACAL<br><br>DÍAS DE POSTURA: MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.648935,-33.547064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BARROS LUCOS</name>
+        <description><![CDATA[CALLE PRINCIPAL: BARROS LUCO	<br>CALLE LIMITE 1: EL PARRON	<br>CALLE LIMITE 2: URUGUAY<br>DÍAS DE POSTURA: MARTES  	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.644965,-33.530842,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

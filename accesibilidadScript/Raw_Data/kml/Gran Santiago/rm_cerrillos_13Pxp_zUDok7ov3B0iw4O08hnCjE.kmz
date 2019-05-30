@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Cerrillos</name>
+    <description>Cerrillos</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FF0000-3000-13-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>0d0000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FF0000-3000-13-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>0d0000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FF0000-3000-13-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF0000-3000-13-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF0000-3000-13-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Cerrillos</name>
+        <styleUrl>#poly-FF0000-3000-13-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -70.749035,-33.491017,0
+                -70.742168,-33.50068,0
+                -70.742083,-33.502111,0
+                -70.741138,-33.503149,0
+                -70.738091,-33.506405,0
+                -70.734229,-33.511021,0
+                -70.72556,-33.513383,0
+                -70.721655,-33.515494,0
+                -70.71599,-33.515422,0
+                -70.70363,-33.520145,0
+                -70.69891,-33.50976,0
+                -70.6874,-33.48514,0
+                -70.685177,-33.478704,0
+                -70.687237,-33.475411,0
+                -70.695047,-33.470757,0
+                -70.703545,-33.467893,0
+                -70.713158,-33.467965,0
+                -70.721483,-33.471473,0
+                -70.726891,-33.474552,0
+                -70.732641,-33.480422,0
+                -70.741138,-33.482928,0
+                -70.747318,-33.485075,0
+                -70.74749,-33.48929,0
+                -70.749035,-33.491017,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>San Martin</name>
+        <description><![CDATA[CALLE PRINCIPAL: ARTURO PRAT<br>CALLE LIMITE 1: ARTURO PRAT<br>CALLE LIMITE 2: 14 DE OCTUBRE<br>	<br>DÍA DE POSTURA: MIÉRCOLES,SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.72468,-33.500035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Modelo</name>
+        <description><![CDATA[CALLE PRINCIPAL: MODELO<br>CALLE LIMITE 1: AV.COSTANERA NORTE <br>CALLE LIMITE 2: LO ERRAZURI<br>DÍAS DE POSTURA:	MARTES	-  VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.723886,-33.482427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Mirador</name>
+        <description><![CDATA[CALLE PRINCIPAL: MIRADOR<br>CALLE LIMITE 1:  DIVINO MAESTRO<br>CALLE LIMITE 2: LAS TORRES<br>DÍAS DE POSTURA:	MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.728757,-33.502361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villa México</name>
+        <description><![CDATA[CALLE PRINCIPAL: 5 DE ABRIL<br>CALLE LIMITE 1: SALVADOR ALLENDE<br>CALLE LIMITE 2:LOS TILOS<br>DÍAS DE POSTURA:  JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.730517,-33.509966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buzeta</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. CUATRO<br>CALLE LIMITE 1:  BUZETA<br>CALLE LIMITE 2: SAN ANDRÉS<br>DÍAS DE  POSTURA:MIÉRCOLES- SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.690134,-33.480547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salomon Sack</name>
+        <description><![CDATA[CALLE PRINCIPAL: SALOMÓN SACK<br>CALLE LIMITE 1:  BUZETA<br>CALLE LIMITE 2: SAN ANDRÉS<br>DÍAS DE POSTURA: MARTES - VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.712857,-33.494667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ferrocarril</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAGOS PALACIOS<br>CALLE LIMITE 1:  AVENIDA LO ERRAZURIZ<br>CALLE LIMITE 2: SANTA ANA<br>DÍAS DE POSTURA:  JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.724906,-33.491223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

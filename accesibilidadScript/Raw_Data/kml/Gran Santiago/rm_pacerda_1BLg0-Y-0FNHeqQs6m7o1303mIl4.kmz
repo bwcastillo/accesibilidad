@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pedro Aguirre Cerda</name>
+    <description>Pedro Aguirre Cerda</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>CENTRO AMERICA</name>
+        <description><![CDATA[CALLE PRINCIPAL:CENTRO AMERICA<br>CALLE LIMITE 1: AV. CENTRAL<br>CALLE LIMITE 2:HAITÍ<br>DÍAS DE POSTURA:		JUEVES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.684919,-33.493969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FELIX MENDELSSOHN</name>
+        <description><![CDATA[CALLE PRINCIPAL: FELIX MENDELSSOHN<br>CALLE LIMITE 1: LAZO	<br>CALLE LIMITE 2: LA MARINA<br>DÍAS DE POSTURA:	MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.672796,-33.493594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ENRIQUE MATTE</name>
+        <description><![CDATA[CALLE PRINCIPAL: ENRIQUE MATTE<br>CALLE LIMITE 1: CLUB HÍPICO<br>CALLE LIMITE 2: MANUELA ERRAZURIZ	<br>DÍAS DE POSTURA: MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.662625,-33.48316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PASEO GROHNERT</name>
+        <description><![CDATA[CALLE PRINCIPAL: PASEO GROHNERT<br>CALLE LIMITE 1: DEPARTAMENTAL<br>CALLE LIMITE 2: BOMBERO OSSANDON<br>DÍAS DE POSTURA:	JUEVES 	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.680242,-33.495115,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ABRIL</name>
+        <description><![CDATA[CALLE PRINCIPAL: DOS ABRIL<br>CALLE LIMITE 1: ERNESTO MOLINO	<br>CALLE LIMITE 2: 1° DE MAYO	<br>DÍAS DE POSTURA:	MARTES  	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.677345,-33.484163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FRATERNAL</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. COOPERACIÓN	<br>CALLE LIMITE 1: BUENA VENTURA<br>CALLE LIMITE 2: FRATERNAL<br>DÍAS DE POSTURA:	MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.685456,-33.500662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>30 DE OCTUBRE</name>
+        <description><![CDATA[CALLE PRINCIPAL: GALO GONZÁLEZ	<br>CALLE LIMITE 1: 30 OCTUBRE<br>CALLE LIMITE 2: CARLOS MARX<br>DÍAS DE POSTURA:	 MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.676014,-33.487151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DAVILA</name>
+        <description><![CDATA[CALLE PRINCIPAL: MANUELA ERRAZURIZ<br>CALLE LIMITE 1:  MELINKA<br>CALLE LIMITE 2: PIRILLICO<br>DÍAS DE POSTURA: 	MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.674877,-33.504052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

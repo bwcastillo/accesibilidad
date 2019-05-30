@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Independencia</name>
+    <description>Independencia</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>GUANACO</name>
+        <description><![CDATA[CALLE PRINCIPAL: GUANACO<br>CALLE LIMITE 1: EINSTEIN<br>CALLE LIMITE 2: AV. MÉXICO<br>DÍAS DE POSTURA: JUEVES    DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.657346,-33.404289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COLON</name>
+        <description><![CDATA[CALLE PRINCIPAL:  COLON<br>CALLE LIMITE 1: FERMÍN VIVACETA <br>CALLE LIMITE 2:  LÓPEZ DE ALCATAR<br>DÍAS DE POSTURA:  JUEVES    DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.660146,-33.42289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL PINO</name>
+        <description><![CDATA[CALLE PRINCIPAL:  EL PINO<br>CALLE LIMITE 1:  GAMERO <br>CALLE LIMITE 2: LOS ANGELES<br>DÍAS DE POSTURA:  MIÉRCOLES    SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.665908,-33.424368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CRONISTA GONGORA</name>
+        <description><![CDATA[CALLE PRINCIPAL: CRONISTA GONGORA   <br>CALLE LIMITE 1:  CORREGIMIENTO <br>CALLE LIMITE 2:  JULIET <br>DÍAS DE POSTURA: MIÉRCOLES    SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.668343,-33.411459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MIRADOR VIEJO</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS CAÑAS<br>CALLE LIMITE 1:  NUEVA DE MATTE<br>CALLE LIMITE 2:  NUEVA UNO<br>DÍAS DE POSTURA:  MIÉRCOLES    SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.675033,-33.408588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MARURI</name>
+        <description><![CDATA[CALLE PRINCIPAL: MARURI <br>CALLE LIMITE 1: SANTO DOMINGO <br>CALLE LIMITE 2:   J.VIAL  <br>DÍAS DE POSTURA: MARTES    VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.659621,-33.414974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ENRIQUE SORO</name>
+        <description><![CDATA[CALLE PRINCIPAL:  ENRIQUE SORO <br>CALLE LIMITE 1: SALOMON SACK<br>CALLE LIMITE 2:  PANAMERICANA NORTE   <br>DÍAS DE POSTURA:  MARTES    VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.673472,-33.419953,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

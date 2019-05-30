@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Lo Prado</name>
+    <description>Lo Prado</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>IBIS	</name>
+        <description><![CDATA[CALLE PRINCIPAL: IBIS<br>CALLE LIMITE 1: OVALLE<br>CALLE LIMITE 2: ISLA DECEPCIÓN	<br>DÍAS DE POSTURA:	MIÉRCOLES    SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.711656,-33.45094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nº1 LAS TORRES</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS TORRES<br>CALLE LIMITE 1: SAN PABLO<br>CALLE LIMITE 2: LOS COPIHUES<br>DÍAS DE POSTURA: MIÉRCOLES    SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.730968,-33.442185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLA KENNEDY</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS TORRES<br>CALLE LIMITE 1: YALE<br>CALLE LIMITE 2: MILTON ROSSEL <br>DÍAS DE POSTURA: MARTES    VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.731075,-33.451889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANTA MARTA</name>
+        <description><![CDATA[CALLE PRINCIPAL: SANTA MARTA<br>CALLE LIMITE 1:  DORSAL<br>CALLE LIMITE 2: PORTALES <br>DÍAS DE POSTURA: JUEVES    DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.715089,-33.448308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PAULA JARAQUEMADA</name>
+        <description><![CDATA[CALLE PRINCIPAL: PAULA JARAQUEMADA<br>CALLE LIMITE 1: CORONA SUECA <br>CALLE LIMITE 2: GABRIELA MISTRAL<br>DÍAS DE POSTURA: JUEVES    DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.738177,-33.449436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NEPTUNO</name>
+        <description><![CDATA[CALLE PRINCIPAL: NEPTUNO<br>CALLE LIMITE 1:  REINA MAU<br>CALLE LIMITE 2: MINISTRO MORA<br>DÍAS DE POSTURA: MARTES    VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.72261,-33.448693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

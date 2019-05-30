@@ -138,6 +138,8 @@ Consultor_otp <- function(data, viaje.tiempo = 10, viaje.velocidad = 1.38, mode 
   shp.output <- do.call(bind,lista.tmp)
   return(shp.output)
 }
+
+
 accesibilidad_tabla <- data.frame()
 for (c in unique(tabla$Ciudad)){
   tabla.ciudad <- tabla[tabla$Ciudad == c,]
@@ -152,10 +154,15 @@ for (c in unique(tabla$Ciudad)){
     walkshed.shp <- readOGR("../Output/Walksheds", shp.name)
   }
 
+  #LEE la población por manzanas de cada ciudad y crea un shape (supongo que junta todas las ciudades)
   poblacion_manzanas.shp <- readOGR("../Raw_Data/Poblacion_Manzanas_Ciudades", paste0(c, "_Poblacion_Manzanas"), encoding = "UTF-8")
-  walkshed.shp <- spTransform(walkshed.shp, proj4string(poblacion_manzanas.shp))
-  # Los walksheds que tienen contacto con una manzana
+ 
+  #Luego hacemos que tenga la misma proyección los walkshed con la población manzana
+   walkshed.shp <- spTransform(walkshed.shp, proj4string(poblacion_manzanas.shp))
+  
+   # Los walksheds que tienen contacto con una manzana
   manzanas.subset <- poblacion_manzanas.shp[walkshed.shp,]
+  
   # Identificar las manzanas con acceso seg?n ID, las que no tienen acceso, y exportar a shp
   accesibilidad.shp <- poblacion_manzanas.shp[,c("ID_W", "Pob")]
   accesibilidad.shp@data$Acceso <- "Dummy"
@@ -168,7 +175,9 @@ for (c in unique(tabla$Ciudad)){
            accesibilidad.carpeta, 
            paste(c, "Acceso_Ferias", sep = "_"),
            driver = "ESRI Shapefile",overwrite_layer=TRUE)
-  # Calcular la poblaci?n con acceso y sin acceso
+ 
+  
+   # Calcular la poblaci?n con acceso y sin acceso
   pob.acceso <- accesibilidad.shp@data$Pob[accesibilidad.shp@data$Acceso == "S?"]
   pob.total <- accesibilidad.shp@data$Pob
   accesibilidad <- data.frame("Ciudad" = c, "Porcentaje Acceso" = round(sum(pob.acceso)/sum(pob.total)*100, 2))

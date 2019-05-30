@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Lo Espejo</name>
+    <description>Lo Espejo</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>JOSE MARIA CARO - 4 FERIAS EN UNA</name>
+        <description><![CDATA[CALLE PRINCIPAL: SALVADOR ALLENDE<br>CALLE LIMITE 1:  AV. CENTRAL<br>CALLE LIMITE 2: FERROCARRIL<br>DÍAS DE POSTURA: JUEVES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.690434,-33.515118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PABLO NERUDA</name>
+        <description><![CDATA[CALLE PRINCIPAL: PABLO NERUDA<br>CALLE LIMITE 1:  9 DE ENERO<br>CALLE LIMITE 2: BALMACEDA<br>DÍAS DE POSTURA: JUEVES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.698223,-33.52917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COOPERACION</name>
+        <description><![CDATA[CALLE PRINCIPAL: COOPERACIÓN<br>CALLE LIMITE 1:  LO OVALLE<br>CALLE LIMITE 2: BUENAVENTURA<br>DÍAS DE POSTURA: MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.68817,-33.506146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA HABANA</name>
+        <description><![CDATA[CALLE PRINCIPAL: LA HABANA<br>CALLE LIMITE 1:  LÍMITE URBANO<br>CALLE LIMITE 2: A. VESPUCIO SUR<br>DÍAS DE POSTURA: MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.699682,-33.521853,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANTA OLGA</name>
+        <description><![CDATA[CALLE PRINCIPAL: JÚPITER<br>CALLE LIMITE 1:  LIBERTAD<br>CALLE LIMITE 2: VENUS<br>DÍAS DE POSTURA:  MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.691603,-33.525333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANTA OLGA</name>
+        <description><![CDATA[CALLE PRINCIPAL: A. LÓPEZ MARCOS<br>CALLE LIMITE 1:  ACAPULCO<br>CALLE LIMITE 2: DURANGO<br>DÍAS DE POSTURA: MIÉRCOLES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.682516,-33.521648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VALPARAISO</name>
+        <description><![CDATA[CALLE PRINCIPAL: VALPARAISO<br>CALLE LIMITE 1:  LO OVALLE<br>CALLE LIMITE 2: LINCOLN<br>DÍAS DE POSTURA: MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.675607,-33.51154,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BALMACEDA</name>
+        <description><![CDATA[CALLE PRINCIPAL: BALMACEDA<br>CALLE LIMITE 1:  ASTABURUAGA<br>CALLE LIMITE 2: SIERRA<br>DÍAS DE POSTURA: MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.69303,-33.532667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

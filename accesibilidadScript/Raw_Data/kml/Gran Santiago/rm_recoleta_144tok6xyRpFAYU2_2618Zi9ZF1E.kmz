@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Recoleta</name>
+    <description>Recoleta</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>RECOLETA</name>
+        <description><![CDATA[CALLE PRINCIPAL: RAQUEL<br>CALLE LIMITE 1: INOCENCIA<br>CALLE LIMITE 2: CAMPINO<br>DÍAS DE POSTURA: VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.637358,-33.401226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ZAPADORES</name>
+        <description><![CDATA[CALLE PRINCIPAL: ZAPADORES<br>CALLE LIMITE 1: RECOLETA<br>CALLE LIMITE 2: JUAN CRISTÓBAL<br>DÍAS DE POSTURA:	MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.646918,-33.388829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EINSTEIN</name>
+        <description><![CDATA[CALLE PRINCIPAL: AV. EINSTEIN<br>CALLE LIMITE 1:  LAS TORRES<br>CALLE LIMITE 2: EINSTEIN	<br>DÍAS DE POSTURA: JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.629129,-33.406439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA SERENA</name>
+        <description><![CDATA[CALLE PRINCIPAL: LA SERENA<br>CALLE LIMITE 1: RECOLETA<br>CALLE LIMITE 2: CARDENAL CARO<br>DÍAS DE POSTURA:	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.647991,-33.395153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HUECHURABA RECOLETA</name>
+        <description><![CDATA[CALLE PRINCIPAL: SAN JOSÉ	<br>CALLE LIMITE 1: ZAPADORES<br>CALLE LIMITE 2: ENRIQUE DONOSO	<br>DÍAS DE POSTURA: JUEVES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.630953,-33.397303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ARZOBISPO VALDIVIESO</name>
+        <description><![CDATA[CALLE PRINCIPAL: ARZ. VALDIVIESO<br>CALLE LIMITE 1: ALICANTE (3 NORTE)	<br>CALLE LIMITE 2: 7 NORTE<br>DÍAS DE POSTURA: VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.628893,-33.411329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL ROBLE</name>
+        <description><![CDATA[CALLE PRINCIPAL: EINSTEIN<br>CALLE LIMITE 1: ALBANO<br>CALLE LIMITE 2: AURELIO DÍAZ<br>DÍAS DE POSTURA: SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.637112,-33.406314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HEROES DE LA CONCEPCIÓN</name>
+        <description><![CDATA[CALLE PRINCIPAL: COLOMBIA<br>CALLE LIMITE 1: REINA DE CHILE<br>CALLE LIMITE 2: EL CERRO<br>DÍAS DE POSTURA:	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.627391,-33.401388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL GUANACO</name>
+        <description><![CDATA[CALLE PRINCIPAL: GUANACO	<br>CALLE LIMITE 1: EINSTEIN	<br>CALLE LIMITE 2: SANTA LAURA	<br>DÍAS DE POSTURA: JUEVES  	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.657432,-33.404254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHACABUCO GRANDE</name>
+        <description><![CDATA[CALLE PRINCIPAL: VÍCTOR CUCCUINI<br>CALLE LIMITE 1: CORONEL DEL CANTO<br>CALLE LIMITE 2: CAMPINO<br>DÍAS DE POSTURA: Miércoles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.639408,-33.404146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

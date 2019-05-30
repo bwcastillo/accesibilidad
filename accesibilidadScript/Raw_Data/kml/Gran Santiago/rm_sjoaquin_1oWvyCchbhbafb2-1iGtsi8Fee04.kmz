@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>San Joaquín</name>
+    <description>San Joaquín</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>MUSSA</name>
+        <description><![CDATA[CALLE PRINCIPAL: SAN NICOLÁS	<br>CALLE LIMITE 1: BENOSO GOZZOLI<br>CALLE LIMITE 2: CRISTÓBAL GRASSO<br>DÍAS DE POSTURA: JUEVES  DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.631382,-33.502147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GASPAR DE SOTO</name>
+        <description><![CDATA[CALLE PRINCIPAL: GASPAR DE SOTO<br>CALLE LIMITE 1: SAN GREGORIO<br>CALLE LIMITE 2: SANTA ROSA<br>DÍAS DE POSTURA:	 MIÉRCOLES	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.637991,-33.496421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NAVARRETE</name>
+        <description><![CDATA[CALLE PRINCIPAL: TOCORNAL	<br>CALLE LIMITE 1: ISABEL RIQUELME<br>CALLE LIMITE 2: PINTOR CICARELLI	<br>DÍAS DE POSTURA:	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.63296,-33.477263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAN JUAN</name>
+        <description><![CDATA[CALLE PRINCIPAL: COMERCIO<br>CALLE LIMITE 1: SAN JUAN<br>CALLE LIMITE 2: AV. CENTRAL<br>DÍAS DE POSTURA:	 MARTES  	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.62193,-33.494059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>INDUSTRIAS</name>
+        <description><![CDATA[CALLE PRINCIPAL: VECINAL<br>CALLE LIMITE 1: CARMEN MENA<br>CALLE LIMITE 2: PASAJE ANAY<br>DÍAS DE POSTURA:	 MARTES	VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.622735,-33.510914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA CASTRINA</name>
+        <description><![CDATA[CALLE PRINCIPAL: SEBASTOPOL	<br>CALLE LIMITE 1: SANTA ROSA<br>CALLE LIMITE 2: LATINOAMÉRICA<br>DÍAS DE POSTURA:	 MARTES 	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.631672,-33.516549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA LEGUA</name>
+        <description><![CDATA[CALLE PRINCIPAL: COMANDANTE RIESLER<br>CALLE LIMITE 1: ALCALDE PEDRO ALARCON<br>CALLE LIMITE 2: SAN GREGORIO<br>DÍAS DE POSTURA:	 JUEVES 	DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.633528,-33.48878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>POBLACION CHILE</name>
+        <description><![CDATA[CALLE PRINCIPAL: JUAN SEBASTIAN BACH<br>CALLE LIMITE 1:  PALESTRINA<br>CALLE LIMITE 2: GUIDO D´AREZZO	<br>DÍAS DE POSTURA:	 MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.626801,-33.480091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

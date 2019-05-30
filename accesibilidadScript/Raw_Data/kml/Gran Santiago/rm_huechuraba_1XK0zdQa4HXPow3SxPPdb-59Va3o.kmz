@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Huechuraba</name>
+    <description>Huechuraba</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>SALVADOR ALLENDE</name>
+        <description><![CDATA[CALLE PRINCIPAL:	AV. EL BOSQUE SANTIAGO	<br>CALLE LIMITE 1: EE.UU.	<br>CALLE LIMITE 2: LOS PINOS<br>DÍAS DE POSTURA: DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.632327,-33.375481,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PABLO NERUDA</name>
+        <description><![CDATA[CALLE PRINCIPAL: PABLO NERUDA  <br>CALLE LIMITE 1: JACARANDA<br>CALLE LIMITE 2:  DEL PINCOY<br>DÍAS DE POSTURA: MIÉRCOLES SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.631404,-33.366153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nº 2 AGUIRRE LUCO</name>
+        <description><![CDATA[CALLE PRINCIPAL:	JOAQUIN AGUIRRE<br>CALLE LIMITE 1: ELÍAS FREIRE<br>CALLE LIMITE 2: LAS TORRES<br>DÍAS DE POSTURA: MARTES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.644729,-33.376466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

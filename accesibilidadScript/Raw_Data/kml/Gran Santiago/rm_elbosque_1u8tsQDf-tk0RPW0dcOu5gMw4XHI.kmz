@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>El bosque</name>
+    <description/>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FF0000-3000-13-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>0d0000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FF0000-3000-13-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>0d0000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FF0000-3000-13-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF0000-3000-13-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF0000-3000-13-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>VECINAL SUR</name>
+        <description><![CDATA[CALLE PRINCIPAL:   VECINAL SUR<br>CALLE LIMITE 1:  SAN FRANCISCO<br>CALLE LIMITE 2: OCÉANO ATLÁNTICO<br>DÍAS DE POSTURA:MIÉRCOLES -SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.664299,-33.581894,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El bosque</name>
+        <styleUrl>#poly-FF0000-3000-13-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -70.68637,-33.54196,0
+                -70.70234,-33.55126,0
+                -70.710239,-33.555844,0
+                -70.71058,-33.56356,0
+                -70.70594,-33.57,0
+                -70.680113,-33.589598,0
+                -70.644236,-33.591886,0
+                -70.6287,-33.57787,0
+                -70.63093,-33.56185,0
+                -70.62543,-33.54511,0
+                -70.62526,-33.54397,0
+                -70.647669,-33.540393,0
+                -70.68157,-33.53281,0
+                -70.68637,-33.54196,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>SANTA ELENA</name>
+        <description><![CDATA[CALLE PRINCIPAL: LOS SAUCES<br>CALLE LIMITE 1:  LOS PALTOS<br>CALLE LIMITE 2: LOS BOLDOS<br>DÍAS DE POSTURA:  JUEVES -DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.675339,-33.573179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOS CAROLINOS</name>
+        <description><![CDATA[CALLE PRINCIPAL: LOS CAROLINOS<br>CALLE LIMITE 1:  LOS ÁLAMOS<br>CALLE LIMITE 2: PADRE HURTADO<br>DÍAS DE POSTURA:  MARTES	SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.683074,-33.570971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CAMINO DEL INCA -VECINAL</name>
+        <description><![CDATA[CALLE PRINCIPAL: CAMINO EL INCA<br>CALLE LIMITE 1:  PADRE HURTADO<br>CALLE LIMITE 2: LOLOL<br>DÍAS DE POSTURA:  JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.676551,-33.577764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CAPITAN AVALOS</name>
+        <description><![CDATA[CALLE PRINCIPAL: CAPITÁN AVALOS<br>CALLE LIMITE 1:  GRAN AVENIDA<br>CALLE LIMITE 2:  PADRE HURTADO<br>DÍAS DE POSTURA:  MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.66992,-33.551052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COVARRUBIA</name>
+        <description><![CDATA[CALLE PRINCIPAL:  AV. JULIO COVARRUBIAS<br>CALLE LIMITE 1:  LOS AVIADORES<br>CALLE LIMITE 2: JORGE LUCO<br>DÍAS DE POSTURA:  MARTES- VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.661466,-33.556935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ARTURO PRAT</name>
+        <description><![CDATA[CALLE PRINCIPAL: NUEVA PONIENTE<br>CALLE LIMITE 1:  MANUEL BULNES<br>CALLE LIMITE 2:   TOMAS YABAR<br>DÍAS DE POSTURA:  MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.654428,-33.549371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL SAUCE</name>
+        <description><![CDATA[CALLE PRINCIPAL:  OBSERVATORIO<br>CALLE LIMITE 1:  LOS MIMBRES<br>CALLE LIMITE 2:  PADRE HURTADO<br>DÍAS DE POSTURA:  MIÉRCOLES - SÁBADO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.666058,-33.561066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VICTOR PLAZA MAYORGA</name>
+        <description><![CDATA[CALLE PRINCIPAL: VICTOR PLAZA MAYORGA<br>CALLE LIMITE 1: ANTONIO BORQUES<br>CALLE LIMITE 2: LOS COPIHUES<br>DÍAS DE POSTURA:  VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.678825,-33.54786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LAGOS DE CHILE</name>
+        <description><![CDATA[CALLE PRINCIPAL: LOS NOGALES<br>CALLE LIMITE 1:  LO ESPEJO<br>CALLE LIMITE 2: 18 DE SEPTIEMBRE<br>DÍAS DE POSTURA:  JUEVES - DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.681851,-33.542173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SANTA LAURA</name>
+        <description><![CDATA[CALLE PRINCIPAL: LUIS BORGOÑO<br>CALLE LIMITE 1: RENGO	<br>CALLE LIMITE 2: JAVIERA CARRERA<br>DÍAS DE POSTURA:  DOMINGO]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.685713,-33.549979,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LAS PARCELAS -VECINAL</name>
+        <description><![CDATA[CALLE PRINCIPAL:  LAS PARCELAS<br>CALLE LIMITE 1:  PADRE HURTADO<br>CALLE LIMITE 2: PEÑABLANCA<br>DÍAS DE POSTURA: <br> <br><br> MARTES VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.674577,-33.581322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TEMUCO (LAS CANTERAS)</name>
+        <description><![CDATA[CALLE PRINCIPAL: LAS CANTERAS<br>CALLE LIMITE 1:  ZINC<br>CALLE LIMITE 2: LAMPA<br>DÍAS DE POSTURA:  <br> <br><br>   MARTES   VIERNES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.668397,-33.575002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BORGOÑO</name>
+        <description><![CDATA[CALLE PRINCIPAL: LUIS BORGOÑO<br>CALLE LIMITE 1:  RENGO<br>CALLE LIMITE 2: JAVIERA CARRERA<br>DÍAS DE POSTURA:  MIÉRCOLES]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -70.686743,-33.549818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
